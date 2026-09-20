@@ -1,3 +1,10 @@
+Demo Video: https://youtu.be/V7ziOICXTt8?si=OKbzsHMLMBuCsYKM
+
+Working Demo Link: https://main.dyfgl39sgqbl4.amplifyapp.com/
+
+This project was built for the BharatBuilds Hackathon organized by WeMakeDevs x AWS.
+This project follows the "Ship It" track.
+
 **1. What is GramSeva?**
 
 GramSeva is a multilingual government-scheme discovery assistant that helps people find potentially relevant Indian government schemes based on their situation.
