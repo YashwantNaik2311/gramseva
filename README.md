@@ -143,8 +143,6 @@ Amplify Hosting serves the production frontend.
 
 This gives GramSeva a real deployed architecture rather than a locally running prototype.
 
-The hackathon's Ship It track specifically evaluates deployed projects and considers architecture and AWS usage as part of the work.
-
 **7. What We Learned**
 
 The biggest learning wasn't simply how to call an AI model.
