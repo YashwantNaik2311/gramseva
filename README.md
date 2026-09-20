@@ -2,6 +2,8 @@ Demo Video: https://youtu.be/V7ziOICXTt8?si=OKbzsHMLMBuCsYKM
 
 Working Demo Link: https://main.dyfgl39sgqbl4.amplifyapp.com/
 
+AWS Build Center Blog: https://builder.aws.com/content/3JXeImbEGwPXggGJhNNhDZUXoCh/we-built-gramseva-in-four-days-it-almost-broke-us
+
 This project was built for the BharatBuilds Hackathon organized by WeMakeDevs x AWS.
 This project follows the "Ship It" track.
 
