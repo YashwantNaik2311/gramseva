@@ -17,7 +17,7 @@ For example:
 
 GramSeva understands the information provided, shows the user what it understood, and then matches that profile against a curated dataset of government schemes.
 
-It currently supports English, Hindi, and Kannada.
+It currently supports English, Hindi, and Kannada
 
 **2. The Problem**
 
@@ -25,7 +25,7 @@ India has a large number of government welfare, financial, educational, agricult
 
 The problem isn't necessarily that these schemes don't exist.
 
-The problem is discoverability.
+The problem is discoverability
 
 A person may know that government assistance exists, but not know:
 
