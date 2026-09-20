@@ -36,7 +36,7 @@ what information matters for eligibility,
 what the scheme actually provides,
 or where they should go to verify and apply.
 
-This becomes even harder when information is presented through formal government portals and documents that aren't designed around a person's individual situation.
+This becomes even harder when information is presented through formal government portals and documents that aren't designed around a person's individual situation
 
 We wanted to approach the problem from the opposite direction:
 
@@ -59,7 +59,7 @@ State → Karnataka
 Education → Graduate
 Occupation → Unemployed
 
-The user gets a chance to review what GramSeva understood before recommendations are generated.
+The user gets a chance to review what GramSeva understood before recommendations are generated
 
 The recommendation engine then compares the available information against the eligibility conditions of the schemes in its dataset.
 
