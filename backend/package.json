@@ -1,0 +1,31 @@
+{
+  "name": "gramseva-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "build:lambdas": "tsx scripts/build-lambdas.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:bedrock": "tsx scripts/test-bedrock.ts",
+    "seed": "tsx scripts/seed.ts",
+    "seed:prod": "tsx scripts/seed.ts --prod"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.750.0",
+    "@aws-sdk/client-polly": "^3.750.0",
+    "@aws-sdk/client-s3": "^3.750.0",
+    "@aws-sdk/client-transcribe": "^3.750.0",
+    "@aws-sdk/lib-dynamodb": "^3.750.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.147",
+    "@types/node": "^20.17.0",
+    "esbuild": "^0.25.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^1.6.1"
+  }
+}

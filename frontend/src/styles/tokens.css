@@ -1,0 +1,228 @@
+:root {
+/* ============================================================
+   GRAMSEVA DESIGN TOKENS — v2
+   Identity: quietly premium, human, editorial.
+   Indigo (natural dye) as the deep, trustworthy anchor;
+   marigold as a scarce warm accent reserved for listening & voice.
+   Dark theme overrides live at the bottom of this file.
+   ============================================================ */
+
+  /* Brand */
+  --brand-ink: #1a1814;
+
+  --indigo-950: #23205f;
+  --indigo-900: #2a2772;
+  --indigo-800: #332f8c;
+  --indigo-700: #3a36a3;
+  --indigo-600: #4641bc;
+  --indigo-500: #5a54d6;
+  --indigo-200: #c9c6ef;
+  --indigo-100: #e3e1f7;
+  --indigo-050: #f0effb;
+
+  --marigold-600: #c98a12;
+  --marigold-500: #db9a1f;
+  --marigold-400: #e7b14e;
+  --marigold-200: #f2d9a6;
+  --marigold-100: #f9edd6;
+  --marigold-050: #fcf7ec;
+
+  /* Tonal surface ladder (background → reading → raised) */
+  --surface-app: #f6f5f1;
+  --surface-1: #fbfaf7;
+  --surface-2: #ffffff;
+
+  /* State / listening surfaces (deep indigo ink) */
+  --listen-950: #191653;
+  --listen-900: #201c66;
+  --listen-800: #292478;
+
+  /* Semantic */
+  --pine-800: #1d4f30;
+  --pine-700: #24613b;
+  --pine-600: #2e7d46;
+  --pine-200: #cde6d4;
+  --pine-100: #e2efe6;
+  --pine-050: #eff6f0;
+
+  --amber-900: #6b4706;
+  --amber-800: #8a5a08;
+  --amber-600: #b4760b;
+  --amber-200: #f0dcae;
+  --amber-100: #f6e8c8;
+  --amber-050: #faf1dd;
+
+  --rust-800: #86150f;
+  --rust-700: #9a1d16;
+  --rust-600: #b3261e;
+  --rust-200: #efc1bc;
+  --rust-100: #f7deda;
+  --rust-050: #fbecea;
+
+  /* Text */
+  --text-primary: #1a1814;
+  --text-secondary: #55534b;
+  --text-muted: #7a786e;
+  --text-faint: #a3a196;
+
+  --text-on-dark: #f5f4ee;
+  --text-on-dark-muted: #c4c3d6;
+  --text-on-dark-faint: #8f8db0;
+  --text-on-primary: #ffffff;
+  --text-on-marigold: #3d2a04;
+
+  /* Lines */
+  --hairline: rgba(26, 24, 20, 0.10);
+  --hairline-strong: rgba(26, 24, 20, 0.16);
+  --hairline-on-dark: rgba(255, 255, 255, 0.16);
+
+  /* Focus */
+  --focus-ring: #4641bc;
+
+  /* Typography family (Anek: weight-matched Latin + Devanagari + Kannada) */
+  --font-sans: 'Anek Latin', 'Anek Devanagari', 'Anek Kannada', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Anek Latin', 'Anek Devanagari', 'Anek Kannada', system-ui, sans-serif;
+
+  /* Type scale (larger, editorial) */
+  --text-display: clamp(2.5rem, 9vw, 4.25rem);
+  --text-h1: clamp(1.875rem, 6vw, 2.75rem);
+  --text-h2: clamp(1.375rem, 4.5vw, 1.625rem);
+  --text-h3: 1.125rem;
+  --text-body: 1.0625rem;
+  --text-body-lg: 1.1875rem;
+  --text-composer: clamp(1.25rem, 5vw, 1.5rem);
+  --text-small: 0.9375rem;
+  --text-caption: 0.8125rem;
+  --text-micro: 0.75rem;
+
+  --leading-tight: 1.08;
+  --leading-snug: 1.25;
+  --leading-body: 1.6;
+  --leading-relaxed: 1.75;
+
+  --tracking-display: -0.035em;
+  --tracking-tight: -0.02em;
+  --tracking-label: 0.09em;
+
+  /* Spacing scale (4px base) */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+  --sp-32: 8rem;
+
+  /* Radius — restrained. Pill for controls/chips only. */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+
+  /* Shadow — used sparingly; tinted to indigo, layered for the voice surface */
+  --shadow-1: 0 1px 2px rgba(26, 24, 60, 0.05);
+  --shadow-2: 0 1px 2px rgba(26, 24, 60, 0.06), 0 8px 24px -8px rgba(26, 24, 60, 0.14);
+  --shadow-3: 0 2px 6px rgba(26, 24, 60, 0.08), 0 24px 64px -16px rgba(26, 24, 60, 0.28);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --dur-fast: 150ms;
+  --dur-base: 260ms;
+  --dur-slow: 420ms;
+  --dur-screen: 380ms;
+
+  /* Layout */
+  --container-xs: 30rem;
+  --container-sm: 36rem;
+  --container-md: 46rem;
+  --container-lg: 68rem;
+  --header-h: 4rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --text-body: 1.0625rem;
+    --text-body-lg: 1.25rem;
+  }
+}
+
+:root[lang='hi'],
+:root[lang='kn'] {
+  --leading-body: 1.8;
+  --leading-relaxed: 1.9;
+  --tracking-display: 0;
+  --tracking-tight: 0;
+  --text-display: clamp(2.25rem, 7.5vw, 3.5rem);
+}
+
+/* ============================================================
+   DARK THEME — same identity, inverted surfaces.
+   Warm near-black canvas, brighter indigo for contrast.
+   ============================================================ */
+:root[data-theme='dark'] {
+  --surface-app: #12111a;
+  --surface-1: #1a1924;
+  --surface-2: #201f2b;
+
+  --text-primary: #f2f1ea;
+  --text-secondary: #c4c3bb;
+  --text-muted: #939289;
+  --text-faint: #615f5a;
+
+  --hairline: rgba(242, 241, 234, 0.14);
+  --hairline-strong: rgba(242, 241, 234, 0.24);
+
+  --indigo-050: #26233a;
+  --indigo-100: #332f4d;
+  --indigo-200: #4a4590;
+  --indigo-500: #7b75e8;
+  --indigo-600: #6a63dd;
+  --indigo-700: #5851cd;
+
+  --marigold-050: #2b2413;
+  --marigold-100: #3a3018;
+  --marigold-200: #5d4a1c;
+  --marigold-400: #e7b14e;
+  --marigold-500: #db9a1f;
+
+  --pine-050: #17251c;
+  --pine-100: #1d3324;
+  --pine-600: #54c07d;
+  --pine-700: #67d18c;
+  --pine-800: #83e0a4;
+
+  --amber-050: #2a2212;
+  --amber-100: #3a2f17;
+  --amber-600: #d9a441;
+  --amber-800: #ecc26e;
+
+  --rust-050: #2c1714;
+  --rust-100: #40201c;
+  --rust-200: #6a322a;
+  --rust-600: #e06b60;
+  --rust-700: #ec8479;
+
+  --text-on-marigold: #231802;
+  --text-on-primary: #ffffff;
+
+  --focus-ring: #7b75e8;
+
+  --surface-sunken: #25242f;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-2: 0 1px 2px rgba(0, 0, 0, 0.35), 0 10px 28px -10px rgba(0, 0, 0, 0.55);
+  --shadow-3: 0 2px 6px rgba(0, 0, 0, 0.4), 0 28px 72px -18px rgba(0, 0, 0, 0.7);
+
+  --listen-800: #26225c;
+  --listen-900: #211e50;
+  --listen-950: #19164a;
+}

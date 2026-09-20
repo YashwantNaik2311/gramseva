@@ -1,0 +1,24 @@
+version = 0.1
+[default]
+[default.global]
+[default.global.parameters]
+stack_name = "gramseva-backend-dev"
+region = "us-east-1"
+
+[default.build]
+[default.build.parameters]
+cached = true
+parallel = true
+
+[default.deploy]
+[default.deploy.parameters]
+capabilities = "CAPABILITY_IAM"
+confirm_changeset = true
+resolve_s3 = true
+s3_prefix = "gramseva-backend-dev"
+parameter_overrides = "StageName=dev DeepSeekModelId=deepseek.v3.2 BedrockMantleEndpoint=https://bedrock-mantle.us-east-1.api.aws/v1/chat/completions"
+image_repositories = []
+
+[default.sync]
+[default.sync.parameters]
+watch = true

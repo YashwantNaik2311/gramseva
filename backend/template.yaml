@@ -1,0 +1,225 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: GramSeva backend - serverless scheme discovery API
+
+Globals:
+  Function:
+    Runtime: nodejs22.x
+    MemorySize: 256
+    Timeout: 30
+    Architectures:
+      - x86_64
+    Environment:
+      Variables:
+        SCHEMES_TABLE: !Ref SchemesTable
+        AUDIO_BUCKET: !Ref AudioBucket
+        DEEPSEEK_MODEL_ID: !Ref DeepSeekModelId
+        BEDROCK_MANTLE_ENDPOINT: !Ref BedrockMantleEndpoint
+        BEDROCK_API_KEY: !Ref BedrockApiKey
+
+Parameters:
+  StageName:
+    Type: String
+    Default: dev
+    Description: Deployment stage
+  DeepSeekModelId:
+    Type: String
+    Default: deepseek.v3.2
+    Description: Model ID for Bedrock Mantle (DeepSeek) profile extraction
+  BedrockMantleEndpoint:
+    Type: String
+    Default: https://bedrock-mantle.us-east-1.api.aws/v1/chat/completions
+    Description: Bedrock Mantle OpenAI-compatible chat completions endpoint
+  BedrockApiKey:
+    Type: String
+    NoEcho: true
+    Default: ''
+    Description: >-
+      Bedrock Mantle API key (short-term Bedrock credential). Provide at deploy
+      time via --parameter-overrides BedrockApiKey=<key>. Never commit this
+      value. If omitted, profile extraction returns EXTRACTION_FAILED until set.
+
+Resources:
+  # ---------------------------------------------------------------------------
+  # API Gateway (HTTP API)
+  # ---------------------------------------------------------------------------
+  ApiGateway:
+    Type: AWS::Serverless::HttpApi
+    Properties:
+      StageName: !Ref StageName
+      CorsConfiguration:
+        AllowOrigins:
+          - '*'
+        AllowMethods:
+          - GET
+          - POST
+          - OPTIONS
+        AllowHeaders:
+          - Content-Type
+          - X-Amz-Date
+          - Authorization
+          - X-Api-Key
+          - X-Request-Id
+      DefaultRouteSettings:
+        ThrottlingBurstLimit: 50
+        ThrottlingRateLimit: 20
+
+  # ---------------------------------------------------------------------------
+  # Lambda: Health check
+  # ---------------------------------------------------------------------------
+  HealthFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: dist/handlers/health
+      Handler: index.handler
+      Description: Health check endpoint
+      Events:
+        HealthApi:
+          Type: HttpApi
+          Properties:
+            Path: /v1/health
+            Method: GET
+            ApiId: !Ref ApiGateway
+            PayloadFormatVersion: '1.0'
+
+  # ---------------------------------------------------------------------------
+  # Lambda: Profile extraction (Bedrock Mantle / DeepSeek)
+  # ---------------------------------------------------------------------------
+  ProfileFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: dist/handlers/profile
+      Handler: index.handler
+      Description: Extract structured profile from narrative using Bedrock Mantle (DeepSeek)
+      Events:
+        ProfileApi:
+          Type: HttpApi
+          Properties:
+            Path: /v1/profiles
+            Method: POST
+            ApiId: !Ref ApiGateway
+            PayloadFormatVersion: '1.0'
+
+  # ---------------------------------------------------------------------------
+  # Lambda: Recommendations and scheme details (DynamoDB)
+  # ---------------------------------------------------------------------------
+  RecommendFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: dist/handlers/recommend
+      Handler: index.handler
+      Description: Deterministic scheme matching and scheme detail
+      Policies:
+        - DynamoDBReadPolicy:
+            TableName: !Ref SchemesTable
+      Events:
+        RecommendApi:
+          Type: HttpApi
+          Properties:
+            Path: /v1/recommendations
+            Method: POST
+            ApiId: !Ref ApiGateway
+            PayloadFormatVersion: '1.0'
+        SchemeDetailApi:
+          Type: HttpApi
+          Properties:
+            Path: /v1/schemes/{schemeId}
+            Method: GET
+            ApiId: !Ref ApiGateway
+            PayloadFormatVersion: '1.0'
+
+  # ---------------------------------------------------------------------------
+  # Lambda: Voice recognition and synthesis (S3 + Transcribe + Polly)
+  # ---------------------------------------------------------------------------
+  VoiceFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: dist/handlers/voice
+      Handler: index.handler
+      Description: Voice recognition and synthesis
+      Policies:
+        - Statement:
+            - Effect: Allow
+              Action:
+                - s3:PutObject
+                - s3:GetObject
+              Resource: !Sub '${AudioBucket.Arn}/*'
+        - Statement:
+            - Effect: Allow
+              Action:
+                - transcribe:StartTranscriptionJob
+                - transcribe:GetTranscriptionJob
+              Resource: '*'
+        - Statement:
+            - Effect: Allow
+              Action:
+                - polly:SynthesizeSpeech
+              Resource: '*'
+      Events:
+        VoiceRecognizeApi:
+          Type: HttpApi
+          Properties:
+            Path: /v1/voice/recognize
+            Method: POST
+            ApiId: !Ref ApiGateway
+            PayloadFormatVersion: '1.0'
+        VoicePollApi:
+          Type: HttpApi
+          Properties:
+            Path: /v1/voice/{jobId}
+            Method: GET
+            ApiId: !Ref ApiGateway
+            PayloadFormatVersion: '1.0'
+        VoiceSynthesizeApi:
+          Type: HttpApi
+          Properties:
+            Path: /v1/voice/synthesize
+            Method: POST
+            ApiId: !Ref ApiGateway
+            PayloadFormatVersion: '1.0'
+
+  # ---------------------------------------------------------------------------
+  # DynamoDB: Scheme records (single P0 table)
+  # ---------------------------------------------------------------------------
+  SchemesTable:
+    Type: AWS::DynamoDB::Table
+    DeletionPolicy: Retain
+    UpdateReplacePolicy: Retain
+    Properties:
+      TableName: !Sub 'gramseva-schemes-${StageName}'
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: schemeId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: schemeId
+          KeyType: HASH
+
+  # ---------------------------------------------------------------------------
+  # S3: Transient audio staging for Transcribe
+  # ---------------------------------------------------------------------------
+  AudioBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'gramseva-audio-${AWS::AccountId}-${StageName}'
+      LifecycleConfiguration:
+        Rules:
+          - Id: DeleteOldAudio
+            Status: Enabled
+            ExpirationInDays: 1
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+Outputs:
+  ApiUrl:
+    Description: API Gateway endpoint URL
+    Value: !Sub 'https://${ApiGateway}.execute-api.${AWS::Region}.amazonaws.com/${StageName}/'
+  SchemesTableName:
+    Description: DynamoDB schemes table name
+    Value: !Ref SchemesTable
+  AudioBucketName:
+    Description: S3 audio bucket name
+    Value: !Ref AudioBucket

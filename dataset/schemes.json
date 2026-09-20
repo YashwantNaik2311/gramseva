@@ -1,0 +1,1314 @@
+[
+  {
+    "schemeId": "pm-kisan",
+    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "localizedName": {
+      "en": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "hi": "प्रधानमंत्री किसान सम्मान निधि (पीएम-किसान)",
+      "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಕಿಸಾನ್ ಸಮ್ಮಾನ್ ನಿಧಿ (ಪಿಎಂ-ಕಿಸಾನ್)"
+    },
+    "description": {
+      "en": "Central sector scheme providing income support of ₹6,000 per year in three equal instalments to all landholding farmer families across India.",
+      "hi": "देश भर के सभी भूधारक किसान परिवारों को तीन समान किस्तों में प्रति वर्ष ₹6,000 की आय सहायता प्रदान करने वाली केंद्रीय क्षेत्र की योजना।",
+      "kn": "ದೇಶದ ಎಲ್ಲಾ ಕೃಷಿ ಭೂಮಿ ಹೊಂದಿರುವ ರೈತ ಕುಟುಂಬಗಳಿಗೆ ವಾರ್ಷಿಕ ₹6,000 ಆದಾಯ ಬೆಂಬಲವನ್ನು ಮೂರು ಕಂತುಗಳಲ್ಲಿ ಒದಗಿಸುವ ಕೇಂದ್ರ ಸರ್ಕಾರದ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Direct financial benefit of ₹6,000 per year transferred via DBT in three 4-monthly instalments of ₹2,000 each.",
+        "hi": "डीबीटी के माध्यम से ₹2,000 की तीन 4-मासिक किस्तों में प्रति वर्ष ₹6,000 का प्रत्यक्ष वित्तीय लाभ।",
+        "kn": "ಡಿಬಿಟಿ ಮೂಲಕ ತಲಾ ₹2,000 ರ ಮೂರು ಕಂತುಗಳಲ್ಲಿ ವಾರ್ಷಿಕ ₹6,000 ನೇರ ಆರ್ಥಿಕ ನೆರವು."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "farmer",
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Aadhaar Card (Mandatory for e-KYC)",
+        "hi": "आधार कार्ड (ई-केवाईसी के लिए अनिवार्य)",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್ (ಇ-ಕೆವೈಸಿಗೆ ಕಡ್ಡಾಯ)"
+      },
+      {
+        "en": "Land ownership documents / RTC / Pahani",
+        "hi": "भूमि स्वामित्व दस्तावेज / खतौनी",
+        "kn": "ಭೂಮಿ ಮಾಲೀಕತ್ವದ ದಾಖಲೆಗಳು / ಪಹಣಿ / ಆರ್‌ಟಿಸಿ"
+      },
+      {
+        "en": "Aadhaar-seeded bank account passbook",
+        "hi": "आधार से जुड़ा बैंक खाता पासबुक",
+        "kn": "ಆಧಾರ್ ಲಿಂಕ್ ಆದ ಬ್ಯಾಂಕ್ ಖಾತೆ ಪಾಸ್‌ಬುಕ್"
+      }
+    ],
+    "state": "All India",
+    "category": ["agriculture", "income support", "farmers"],
+    "applicationUrl": "https://pmkisan.gov.in",
+    "officialSource": "https://pmkisan.gov.in",
+    "sourceName": "Ministry of Agriculture & Farmers Welfare",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Farmer family must possess cultivable landholding registered in state land records.",
+      "Institutional landholders and income tax-paying individuals or families are strictly excluded.",
+      "Mandatory e-KYC must be completed on the PM-KISAN portal or CSC."
+    ],
+    "helpline": "155261 / 011-24300606",
+    "department": "Department of Agriculture and Farmers Welfare",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "pmfby",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "localizedName": {
+      "en": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "hi": "प्रधानमंत्री फसल बीमा योजना (पीएमएफबीवाय)",
+      "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಫಸಲ್ ಬಿಮಾ ಯೋಜನೆ (ಪಿಎಂಎಫ್‌ಬಿವೈ)"
+    },
+    "description": {
+      "en": "Comprehensive crop insurance scheme providing financial support to farmers suffering crop loss or damage arising out of non-preventable natural calamities.",
+      "hi": "प्राकृतिक आपदाओं के कारण फसल क्षति या नुकसान का सामना करने वाले किसानों को वित्तीय सहायता प्रदान करने वाली व्यापक फसल बीमा योजना।",
+      "kn": "ನೈಸರ್ಗಿಕ ವಿಕೋಪಗಳಿಂದ ಬೆಳೆ ನಷ್ಟ ಅಥವಾ ಹಾನಿ ಅನುಭವಿಸುವ ರೈತರಿಗೆ ಆರ್ಥಿಕ ನೆರವು ನೀಡುವ ಸಮಗ್ರ ಬೆಳೆ ವಿಮಾ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Subsidised insurance coverage against unforeseen crop losses with farmer premium capped at 2% for Kharif, 1.5% for Rabi, and 5% for horticultural crops.",
+        "hi": "अप्रत्याशित फसल नुकसान के खिलाफ सब्सिडीयुक्त बीमा कवरेज: खरीफ के लिए 2%, रबी के लिए 1.5% और बागवानी फसलों के लिए 5% प्रीमियम।",
+        "kn": "ಬೆಳೆ ನಷ್ಟಕ್ಕೆ ಸಬ್ಸಿಡಿ ಸಹಿತ ವಿಮೆ: ಖಾರಿಫ್ ಬೆಳೆಗೆ 2%, ರಬಿ ಬೆಳೆಗೆ 1.5% ಮತ್ತು ತೋಟಗಾರಿಕಾ ಬೆಳೆಗೆ 5% ಮಾತ್ರ ರೈತರು ಪಾವತಿಸಬೇಕಾದ ಕಂತು."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "farmer",
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್"
+      },
+      {
+        "en": "Land tenancy certificate / Land title deed / RTC",
+        "hi": "भूमि स्वामित्व / बटाईदार प्रमाण पत्र / खतौनी",
+        "kn": "ಭೂಮಿ ಮಾಲೀಕತ್ವದ ದಾಖಲೆ / ಪಹಣಿ / ಗೇಣಿ ಪತ್ರ"
+      },
+      {
+        "en": "Sowing Certificate / Crop declaration form",
+        "hi": "बुवाई प्रमाण पत्र / फसल घोषणा पत्र",
+        "kn": "ಬಿತ್ತನೆ ದೃಢೀಕರಣ ಪತ್ರ"
+      },
+      {
+        "en": "Bank account passbook",
+        "hi": "बैंक खाता पासबुक",
+        "kn": "ಬ್ಯಾಂಕ್ ಖಾತೆ ಪಾಸ್‌ಬುಕ್"
+      }
+    ],
+    "state": "All India",
+    "category": ["agriculture", "insurance", "farmers"],
+    "applicationUrl": "https://pmfby.gov.in",
+    "officialSource": "https://pmfby.gov.in",
+    "sourceName": "Ministry of Agriculture & Farmers Welfare",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Insurance is only applicable for notified crops in notified insurance unit areas for the current season.",
+      "Farmer must enroll and pay premium before the state-notified seasonal cut-off date.",
+      "Crop loss must be reported within 72 hours of localized calamity occurrence."
+    ],
+    "helpline": "14447",
+    "department": "Department of Agriculture and Farmers Welfare",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "pm-kmy",
+    "name": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+    "localizedName": {
+      "en": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+      "hi": "प्रधानमंत्री किसान मानधन योजना (पीएम-केएमवाय)",
+      "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಕಿಸಾನ್ ಮಾನ್‌ಧನ್ ಯೋಜನೆ (ಪಿಎಂ-ಕೆಎಂವೈ)"
+    },
+    "description": {
+      "en": "Voluntary and contributory pension scheme for small and marginal farmers providing an assured monthly pension of ₹3,000 upon reaching age 60.",
+      "hi": "छोटे और सीमांत किसानों के लिए स्वैच्छिक और अंशदायी पेंशन योजना, जो 60 वर्ष की आयु पूरी होने पर ₹3,000 की सुनिश्चित मासिक पेंशन देती है।",
+      "kn": "ಸಣ್ಣ ಮತ್ತು ಅತಿ ಸಣ್ಣ ರೈತರಿಗೆ 60 ವರ್ಷ ದಾಟಿದ ನಂತರ ಪ್ರತಿ ತಿಂಗಳು ₹3,000 ಖಾತರಿಯ ಪಿಂಚಣಿ ನೀಡುವ ಸ್ವಯಂಪ್ರೇರಿತ ವಂತಿಗೆ ಪಿಂಚಣಿ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Guaranteed minimum monthly pension of ₹3,000 after attaining 60 years of age, with 50% equal matching contribution by the Central Government.",
+        "hi": "60 वर्ष की आयु के बाद ₹3,000 की न्यूनतम गारंटीकृत मासिक पेंशन, केंद्र सरकार द्वारा समान 50% का योगदान।",
+        "kn": "60 ವರ್ಷಗಳ ನಂತರ ತಿಂಗಳಿಗೆ ₹3,000 ಖಾತರಿಯ ಪಿಂಚಣಿ, ಕೇಂದ್ರ ಸರ್ಕಾರದಿಂದ ಶೇ.50 ರಷ್ಟು ಸಮಾನ ವಂತಿಗೆ ಪಾವತಿ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "farmer",
+        "required": true
+      },
+      {
+        "attribute": "age",
+        "operator": "between",
+        "value": [18, 40],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್"
+      },
+      {
+        "en": "Savings Bank Account / Jan Dhan Account details",
+        "hi": "बचत बैंक खाता / जन धन खाता विवरण",
+        "kn": "ಬ್ಯಾಂಕ್ ಖಾತೆ ಅಥವಾ ಜನಧನ್ ಖಾತೆಯ ವಿವರ"
+      },
+      {
+        "en": "Copy of land record (Khasra / Khatauni / RTC showing land up to 2 hectares)",
+        "hi": "भूमि रिकॉर्ड की प्रति (2 हेक्टेयर तक भूमि दर्शाने वाली खतौनी)",
+        "kn": "2 ಹೆಕ್ಟೇರ್‌ವರೆಗಿನ ಕೃಷಿ ಭೂಮಿ ಹೊಂದಿರುವ ಪಹಣಿ / ದಾಖಲೆ"
+      }
+    ],
+    "state": "All India",
+    "category": ["pension", "social security", "farmers"],
+    "applicationUrl": "https://maandhan.in",
+    "officialSource": "https://maandhan.in",
+    "sourceName": "Ministry of Agriculture & Farmers Welfare / LIC",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Farmer must own cultivable land up to 2 hectares (small and marginal farmer criteria).",
+      "Applicant must not be covered under other statutory social security schemes like NPS, ESIC, or EPFO.",
+      "Income tax payers are not eligible.",
+      "Enrollment is active and primarily facilitated through Common Service Centres (CSCs) and the Maandhan portal."
+    ],
+    "helpline": "1800-3000-3468",
+    "department": "Department of Agriculture and Farmers Welfare",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "pmmy",
+    "name": "Pradhan Mantri MUDRA Yojana (PMMY)",
+    "localizedName": {
+      "en": "Pradhan Mantri MUDRA Yojana (PMMY)",
+      "hi": "प्रधानमंत्री मुद्रा योजना (पीएमएमवाय)",
+      "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಮುದ್ರಾ ಯೋಜನೆ (ಪಿಎಂಎಂವೈ)"
+    },
+    "description": {
+      "en": "Refinance scheme facilitating collateral-free loans up to ₹20 lakh to non-corporate, non-farm small and micro enterprises through banks and financial institutions.",
+      "hi": "बैंकों और वित्तीय संस्थानों के माध्यम से गैर-कॉर्पोरेट, गैर-कृषि लघु और सूक्ष्म उद्यमों को ₹20 लाख तक के संपार्श्विक-मुक्त ऋण प्रदान करने वाली योजना।",
+      "kn": "ಕಾರ್ಪೊರೇಟ್ ಅಲ್ಲದ, ಕೃಷಿಯೇತರ ಸಣ್ಣ ಮತ್ತು ಸೂಕ್ಷ್ಮ ಉದ್ಯಮಗಳಿಗೆ ಬ್ಯಾಂಕುಗಳ ಮೂಲಕ ₹20 ಲಕ್ಷದವರೆಗೆ ಯಾವುದೇ ಆಧಾರವಿಲ್ಲದೆ ಸಾಲ ನೀಡುವ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Collateral-free business loans under 3 stages: Shishu (up to ₹50,000), Kishore (₹50,001 to ₹5 lakh), and Tarun (₹5 lakh to ₹10 lakh, extendable up to ₹20 lakh for Tarun Plus).",
+        "hi": "3 चरणों में संपार्श्विक-मुक्त व्यापार ऋण: शिशु (₹50,000 तक), किशोर (₹50,001 से ₹5 लाख), और तरुण (₹5 लाख से ₹10 लाख/₹20 लाख तक)।",
+        "kn": "ಯಾವುದೇ ಆಸ್ತಿ ಗ್ಯಾರಂಟಿ ಇಲ್ಲದೆ 3 ಹಂತಗಳಲ್ಲಿ ವ್ಯಾಪಾರ ಸಾಲ: ಶಿಶು (₹50,000 ವರೆಗೆ), ಕಿಶೋರ್ (₹50,001 ರಿಂದ ₹5 ಲಕ್ಷ), ತರುಣ್ (₹5 ಲಕ್ಷದಿಂದ ₹10/20 ಲಕ್ಷದವರೆಗೆ)."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "in",
+        "value": ["self-employed", "entrepreneur"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Proof of Identity (Aadhaar / Voter ID / PAN)",
+        "hi": "पहचान प्रमाण (आधार / मतदाता पहचान पत्र / पैन)",
+        "kn": "ಗುರುತಿನ ಚೀಟಿ (ಆಧಾರ್ / ಮತದಾರರ ಗುರುತಿನ ಚೀಟಿ / ಪ್ಯಾನ್)"
+      },
+      {
+        "en": "Proof of Residence / Business address",
+        "hi": "निवास / व्यावसायिक पते का प्रमाण",
+        "kn": "ವಿಳಾಸ ಮತ್ತು ವ್ಯಾಪಾರ ಸ್ಥಳದ ದೃಢೀಕರಣ ಪತ್ರ"
+      },
+      {
+        "en": "Business registration certificate or licenses (if applicable)",
+        "hi": "व्यापार पंजीकरण प्रमाण पत्र या लाइसेंस",
+        "kn": "ವ್ಯಾಪಾರ ನೋಂದಣಿ ಪ್ರಮಾಣಪತ್ರ ಅಥವಾ ಪರವಾನಗಿ"
+      },
+      {
+        "en": "Bank account statement for past 6 months",
+        "hi": "पिछले 6 महीनों का बैंक खाता विवरण",
+        "kn": "ಕಳೆದ 6 ತಿಂಗಳ ಬ್ಯಾಂಕ್ ಖಾತೆ ವಿವರ"
+      }
+    ],
+    "state": "All India",
+    "category": ["business loans", "enterprise", "credit"],
+    "applicationUrl": "https://www.udyamimitra.in",
+    "officialSource": "https://mudra.org.in",
+    "sourceName": "Department of Financial Services, Ministry of Finance",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Enterprise must be non-corporate, non-farm small or micro enterprise in manufacturing, trading, or services.",
+      "Loan approval is subject to individual bank's credit appraisal and viability assessment.",
+      "Applicant must not be a defaulter with any financial institution."
+    ],
+    "helpline": "1800-180-1111",
+    "department": "Department of Financial Services",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "pm-svanidhi",
+    "name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "localizedName": {
+      "en": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+      "hi": "पीएम स्ट्रीट वेंडर्स आत्मनिर्भर निधि (पीएम स्वनिधि)",
+      "kn": "ಪಿಎಂ ಬೀದಿ ವ್ಯಾಪಾರಿಗಳ ಆತ್ಮನಿರ್ಭರ ನಿಧಿ (ಪಿಎಂ ಸ್ವನಿಧಿ)"
+    },
+    "description": {
+      "en": "Micro-credit facility providing collateral-free working capital loans starting from ₹10,000 to ₹50,000 with interest subsidy for urban street vendors.",
+      "hi": "शहरी स्ट्रीट वेंडरों के लिए ₹10,000 से ₹50,000 तक संपार्श्विक-मुक्त कार्यशील पूंजी ऋण और ब्याज सब्सिडी प्रदान करने वाली सूक्ष्म-ऋण सुविधा।",
+      "kn": "ನಗರ ಪ್ರದೇಶದ ಬೀದಿ ವ್ಯಾಪಾರಿಗಳಿಗೆ ಬಡ್ಡಿ ಸಹಾಯಧನದೊಂದಿಗೆ ₹10,000 ದಿಂದ ₹50,000 ವರೆಗೆ ಆಧಾರರಹಿತ ದುಡಿಯುವ ಬಂಡವಾಳ ಸಾಲ ನೀಡುವ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Initial working capital loan of ₹10,000, progressing to ₹20,000 and ₹50,000 on timely repayment, with 7% per annum interest subsidy.",
+        "hi": "₹10,000 का प्रारंभिक ऋण, समय पर भुगतान करने पर ₹20,000 और ₹50,000 तक की वृद्धि, साथ ही 7% वार्षिक ब्याज सब्सिडी।",
+        "kn": "ಮೊದಲ ಕಂತಿನಲ್ಲಿ ₹10,000, ಸಕಾಲಿಕ ಮರುಪಾವತಿ ಮಾಡಿದರೆ ₹20,000 ಮತ್ತು ₹50,000 ವರೆಗೆ ಸಾಲ, ವಾರ್ಷಿಕ ಶೇ.7 ರಷ್ಟು ಬಡ್ಡಿ ಸಹಾಯಧನ."
+      },
+      {
+        "en": "Cashback incentive up to ₹1,200 per year on eligible digital transactions.",
+        "hi": "डिजिटल लेनदेन पर प्रति वर्ष ₹1,200 तक का कैशबैक प्रोत्साहन।",
+        "kn": "ಡಿಜಿಟಲ್ ವಹಿವಾಟುಗಳಿಗೆ ವಾರ್ಷಿಕ ₹1,200 ವರೆಗೆ ಕ್ಯಾಶ್‌ಬ್ಯಾಕ್ ಪ್ರೋತ್ಸಾಹ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "in",
+        "value": ["self-employed", "worker"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್"
+      },
+      {
+        "en": "Certificate of Vending (CoV) / Identity Card issued by Urban Local Body",
+        "hi": "शहरी स्थानीय निकाय द्वारा जारी वेंडिंग प्रमाण पत्र / पहचान पत्र",
+        "kn": "ನಗರ ಸ್ಥಳೀಯ ಸಂಸ್ಥೆ ನೀಡಿರುವ ಬೀದಿ ವ್ಯಾಪಾರ ಪ್ರಮಾಣಪತ್ರ ಅಥವಾ ಗುರುತಿನ ಚೀಟಿ"
+      },
+      {
+        "en": "Bank account passbook",
+        "hi": "बैंक खाता पासबुक",
+        "kn": "ಬ್ಯಾಂಕ್ ಖಾತೆ ಪಾಸ್‌ಬುಕ್"
+      }
+    ],
+    "state": "All India",
+    "category": ["livelihoods", "micro-credit", "street vendors"],
+    "applicationUrl": "https://pmsvanidhi.mohua.gov.in",
+    "officialSource": "https://pmsvanidhi.mohua.gov.in",
+    "sourceName": "Ministry of Housing and Urban Affairs",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Vendor must be engaged in street vending in urban areas on or before the qualifying scheme date.",
+      "Must possess a Certificate of Vending or Letter of Recommendation (LoR) from the municipal body.",
+      "Mobile number must be linked to Aadhaar for application processing."
+    ],
+    "helpline": "1800-11-6446",
+    "department": "Ministry of Housing and Urban Affairs",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "pmegp",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "localizedName": {
+      "en": "Prime Minister's Employment Generation Programme (PMEGP)",
+      "hi": "प्रधानमंत्री रोजगार सृजन कार्यक्रम (पीएमईजीपी)",
+      "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿಗಳ ಉದ್ಯೋಗ ಸೃಷ್ಟಿ ಕಾರ್ಯಕ್ರಮ (ಪಿಎಂಇಜಿಪಿ)"
+    },
+    "description": {
+      "en": "Credit-linked subsidy programme offering 15% to 35% margin money subsidy on project costs up to ₹50 lakh for setting up new micro-enterprises.",
+      "hi": "नए सूक्ष्म उद्यम स्थापित करने के लिए ₹50 लाख तक की परियोजना लागत पर 15% से 35% मार्जिन मनी सब्सिडी प्रदान करने वाला कार्यक्रम।",
+      "kn": "ಹೊಸ ಸೂಕ್ಷ್ಮ ಉದ್ಯಮಗಳನ್ನು ಪ್ರಾರಂಭಿಸಲು ₹50 ಲಕ್ಷದವರೆಗಿನ ಯೋಜನಾ ವೆಚ್ಚದ ಮೇಲೆ ಶೇ.15 ರಿಂದ ಶೇ.35 ರಷ್ಟು ಸಬ್ಸಿಡಿ ನೀಡುವ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Margin money subsidy of 25% (urban) to 35% (rural) for special categories (women, SC/ST/OBC, Ex-servicemen, differently-abled) and 15% to 25% for general category.",
+        "hi": "विशेष श्रेणियों (महिलाएं, अजा/अजजा/अपिव, दिव्यांग) के लिए 25% (शहरी) से 35% (ग्रामीण) और सामान्य श्रेणी के लिए 15% से 25% मार्जिन मनी सब्सिडी।",
+        "kn": "ವಿಶೇಷ ವರ್ಗಗಳಿಗೆ (ಮಹಿಳೆಯರು, ಎಸ್‌ಸಿ/ಎಸ್‌ಟಿ/ಒಬಿಸಿ, ಅಂಗವಿಕಲರು) ಶೇ.25 (ನಗರ) ರಿಂದ ಶೇ.35 (ಗ್ರಾಮೀಣ) ಮತ್ತು ಸಾಮಾನ್ಯ ವರ್ಗಕ್ಕೆ ಶೇ.15 ರಿಂದ ಶೇ.25 ರಷ್ಟು ಸಬ್ಸಿಡಿ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "gte",
+        "value": 18,
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "in",
+        "value": ["unemployed", "self-employed", "entrepreneur"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Aadhaar Card and PAN Card",
+        "hi": "आधार कार्ड और पैन कार्ड",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್ ಮತ್ತು ಪ್ಯಾನ್ ಕಾರ್ಡ್"
+      },
+      {
+        "en": "Educational qualification certificate (8th pass certificate for projects > ₹10 lakh manufacturing or > ₹5 lakh service)",
+        "hi": "शैक्षिक योग्यता प्रमाण पत्र (10 लाख से अधिक विनिर्माण परियोजना के लिए 8वीं पास)",
+        "kn": "ಶೈಕ್ಷಣಿಕ ಪ್ರಮಾಣಪತ್ರ (₹10 ಲಕ್ಷ ಮೀರಿದ ಉತ್ಪಾದನಾ ಘಟಕಕ್ಕೆ 8ನೇ ತರಗತಿ ಪಾಸ್ ಕಡ್ಡಾಯ)"
+      },
+      {
+        "en": "Detailed Project Report (DPR)",
+        "hi": "विस्तृत परियोजना रिपोर्ट (डीपीआर)",
+        "kn": "ಸಮಗ್ರ ಯೋಜನಾ ವರದಿ (ಡಿಪಿಆರ್)"
+      },
+      {
+        "en": "Special category / Caste certificate (if claiming higher subsidy)",
+        "hi": "विशेष श्रेणी / जाति प्रमाण पत्र (उच्च सब्सिडी के लिए)",
+        "kn": "ಜಾತಿ / ವಿಶೇಷ ವರ್ಗದ ಪ್ರಮಾಣಪತ್ರ (ಹೆಚ್ಚಿನ ಸಬ್ಸಿಡಿ ಪಡೆಯಲು)"
+      }
+    ],
+    "state": "All India",
+    "category": ["employment", "entrepreneurship", "subsidy"],
+    "applicationUrl": "https://www.kviconline.gov.in/pmegpeportal",
+    "officialSource": "https://www.kviconline.gov.in/pmegpeportal",
+    "sourceName": "Khadi and Village Industries Commission (KVIC) / Ministry of MSME",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Scheme applies strictly to setting up NEW micro-enterprises; existing units are not eligible.",
+      "Beneficiary contribution of 5% (special categories) or 10% (general category) of total project cost is required.",
+      "Project must be approved by District Task Force and sanctioned by a participating commercial bank."
+    ],
+    "helpline": "1800-3000-0034",
+    "department": "Ministry of Micro, Small and Medium Enterprises",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "nmmss",
+    "name": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+    "localizedName": {
+      "en": "National Means-cum-Merit Scholarship Scheme (NMMSS)",
+      "hi": "राष्ट्रीय साधन-सह-मेधा छात्रवृत्ति योजना (एनएमएमएसएस)",
+      "kn": "ರಾಷ್ಟ್ರೀಯ ಸಾಧನ-ಸಹ-ಮೆರಿಟ್ ವಿದ್ಯಾರ್ಥಿವೇತನ ಯೋಜನೆ (ಎನ್‌ಎಂಎಂಎಸ್‌ಎಸ್)"
+    },
+    "description": {
+      "en": "Scholarship awarded to meritorious students from economically weaker sections to prevent drop-outs at Class 8 and encourage continuation of secondary education.",
+      "hi": "आर्थिक रूप से कमजोर वर्ग के मेधावी छात्रों को कक्षा 8 में पढ़ाई छोड़ने से रोकने और माध्यमिक शिक्षा जारी रखने के लिए छात्रवृत्ति।",
+      "kn": "ಆರ್ಥಿಕವಾಗಿ ಹಿಂದುಳಿದ ಪ್ರತಿಭಾವಂತ ವಿದ್ಯಾರ್ಥಿಗಳು 8ನೇ ತರಗತಿಯ ನಂತರ ಶಾಲೆ ಬಿಡುವುದನ್ನು ತಪ್ಪಿಸಿ ಪ್ರೌಢ ಶಿಕ್ಷಣ ಮುಂದುವರಿಸಲು ನೆರವಾಗುವ ವಿದ್ಯಾರ್ಥಿವೇತನ."
+    },
+    "benefits": [
+      {
+        "en": "Scholarship of ₹12,000 per annum (₹1,000 per month) from Class 9 to Class 12 paid directly into the student's bank account.",
+        "hi": "कक्षा 9 से कक्षा 12 तक ₹12,000 प्रति वर्ष (₹1,000 प्रति माह) की छात्रवृत्ति सीधे छात्र के खाते में।",
+        "kn": "9ನೇ ತರಗತಿಯಿಂದ 12ನೇ ತರಗತಿಯವರೆಗೆ ವರ್ಷಕ್ಕೆ ₹12,000 (ತಿಂಗಳಿಗೆ ₹1,000) ನೇರ ವಿದ್ಯಾರ್ಥಿವೇತನ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      },
+      {
+        "attribute": "age",
+        "operator": "between",
+        "value": [12, 18],
+        "required": true
+      },
+      {
+        "attribute": "incomeBracket",
+        "operator": "in",
+        "value": ["below_poverty_line", "low"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Class 7 / Class 8 Marksheet (minimum 55% marks required, 50% for SC/ST)",
+        "hi": "कक्षा 7 / 8 की अंकतालिका (न्यूनतम 55% अंक, अजा/अजजा के लिए 50%)",
+        "kn": "7ನೇ ಅಥವಾ 8ನೇ ತರಗತಿಯ ಅಂಕಪಟ್ಟಿ (ಕನಿಷ್ಠ ಶೇ.55 ಅಂಕಗಳು, ಎಸ್‌ಸಿ/ಎಸ್‌ಟಿಗೆ ಶೇ.50)"
+      },
+      {
+        "en": "Income Certificate issued by competent revenue authority (income not exceeding ₹3.5 lakh/year)",
+        "hi": "सक्षम राजस्व अधिकारी द्वारा जारी आय प्रमाण पत्र (वार्षिक आय ₹3.5 लाख से कम)",
+        "kn": "ಕಂದಾಯ ಪ್ರಾಧಿಕಾರ ನೀಡಿದ ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ (ವಾರ್ಷಿಕ ಆದಾಯ ₹3.5 ಲಕ್ಷ ಮೀರಿರಬಾರದು)"
+      },
+      {
+        "en": "Aadhaar Card of student",
+        "hi": "छात्र का आधार कार्ड",
+        "kn": "ವಿದ್ಯಾರ್ಥಿಯ ಆಧಾರ್ ಕಾರ್ಡ್"
+      },
+      {
+        "en": "Bank account passbook in student's own name linked with Aadhaar",
+        "hi": "छात्र के नाम पर आधार से जुड़ा बैंक खाता पासबुक",
+        "kn": "ವಿದ್ಯಾರ್ಥಿಯ ಹೆಸರಿನಲ್ಲಿರುವ ಆಧಾರ್ ಲಿಂಕ್ ಆದ ಬ್ಯಾಂಕ್ ಖಾತೆ"
+      }
+    ],
+    "state": "All India",
+    "category": ["education", "scholarships", "school students"],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "Department of School Education & Literacy, Ministry of Education",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Student must pass the State-level NMMSS selection test conducted at Class 8 level.",
+      "Must be studying as a regular student in a Government, Government-aided, or Local Body school (Kendriya Vidyalaya and Jawahar Navodaya students not eligible).",
+      "Total parental annual income from all sources must not exceed ₹3,50,000."
+    ],
+    "helpline": "0120-6619540",
+    "department": "Ministry of Education",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "pm-usp-css",
+    "name": "PM-USP Central Sector Scholarship for College & University Students",
+    "localizedName": {
+      "en": "PM-USP Central Sector Scholarship for College & University Students",
+      "hi": "कॉलेज और विश्वविद्यालय के छात्रों के लिए केंद्रीय क्षेत्र छात्रवृत्ति (पीएम-यूएसपी)",
+      "kn": "ಕಾಲೇಜು ಮತ್ತು ವಿಶ್ವವಿದ್ಯಾಲಯ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಕೇಂದ್ರ ವಲಯ ವಿದ್ಯಾರ್ಥಿವೇತನ (ಪಿಎಂ-ಯುಎಸ್‌ಪಿ)"
+    },
+    "description": {
+      "en": "Merit-cum-means scholarship for students who passed Class 12 board examination in top 20 percentile and are pursuing regular degree courses in recognized colleges/universities.",
+      "hi": "12वीं कक्षा में शीर्ष 20 पर्सेंटाइल में उत्तीर्ण और मान्यता प्राप्त कॉलेजों में नियमित डिग्री पाठ्यक्रम करने वाले छात्रों के लिए मेधा-सह-साधन छात्रवृत्ति।",
+      "kn": "12ನೇ ತರಗತಿಯಲ್ಲಿ ಶ್ರೇಷ್ಠ ಅಂಕ ಗಳಿಸಿ (ಟಾಪ್ 20 ಪರ್ಸಂಟೈಲ್) ಕಾಲೇಜುಗಳಲ್ಲಿ ನಿಯಮಿತ ಪದವಿ ವ್ಯಾಸಂಗ ಮಾಡುತ್ತಿರುವ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಮೆರಿಟ್ ವಿದ್ಯಾರ್ಥಿವೇತನ."
+    },
+    "benefits": [
+      {
+        "en": "Scholarship of ₹12,000 per annum for the first 3 years of undergraduate study, and ₹20,000 per annum at postgraduate level.",
+        "hi": "स्नातक स्तर के पहले 3 वर्षों के लिए ₹12,000 प्रति वर्ष और स्नातकोत्तर स्तर पर ₹20,000 प्रति वर्ष छात्रवृत्ति।",
+        "kn": "ಪದವಿ ವ್ಯಾಸಂಗದ ಮೊದಲ 3 ವರ್ಷಗಳಿಗೆ ವಾರ್ಷಿಕ ₹12,000 ಮತ್ತು ಸ್ನಾತಕೋತ್ತರ ಮಟ್ಟದಲ್ಲಿ ವಾರ್ಷಿಕ ₹20,000 ವಿದ್ಯಾರ್ಥಿವೇತನ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      },
+      {
+        "attribute": "educationLevel",
+        "operator": "in",
+        "value": ["undergraduate", "postgraduate"],
+        "required": true
+      },
+      {
+        "attribute": "incomeBracket",
+        "operator": "in",
+        "value": ["below_poverty_line", "low", "lower_middle"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Class 12 Marksheet showing marks above the board's cut-off percentile",
+        "hi": "कट-ऑफ पर्सेंटाइल से अधिक अंक दर्शाने वाली 12वीं की अंकतालिका",
+        "kn": "12ನೇ ತರಗತಿಯ ಅಂಕಪಟ್ಟಿ (ಕಟ್‌ಆಫ್ ಶ್ರೇಣಿಗಿಂತ ಮೇಲ್ಪಟ್ಟ)"
+      },
+      {
+        "en": "Income Certificate (annual parental income below ₹4.5 lakh)",
+        "hi": "आय प्रमाण पत्र (अभिभावक की वार्षिक आय ₹4.5 लाख से कम)",
+        "kn": "ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ (ವಾರ್ಷಿಕ ಆದಾಯ ₹4.5 ಲಕ್ಷ ಮೀರಿರಬಾರದು)"
+      },
+      {
+        "en": "College Admission proof / Fee receipt / Bonafide Certificate",
+        "hi": "कॉलेज प्रवेश प्रमाण पत्र / शुल्क रसीद / बोनाफाइड प्रमाण पत्र",
+        "kn": "ಕಾಲೇಜು ಪ್ರವೇಶ ದಾಖಲೆ / ಶುಲ್ಕ ರಸೀದಿ / ಬೋನಫೈಡ್ ಪ್ರಮಾಣಪತ್ರ"
+      },
+      {
+        "en": "Aadhaar Card and Student Bank Account Passbook",
+        "hi": "आधार कार्ड और छात्र का बैंक खाता पासबुक",
+        "kn": "ವಿದ್ಯಾರ್ಥಿಯ ಆಧಾರ್ ಕಾರ್ಡ್ ಮತ್ತು ಬ್ಯಾಂಕ್ ಖಾತೆ ಪಾಸ್‌ಬುಕ್"
+      }
+    ],
+    "state": "All India",
+    "category": ["higher education", "scholarships", "college students"],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "Department of Higher Education, Ministry of Education",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Student must be above the 80th percentile of successful candidates in the relevant stream from the respective State Examination Board.",
+      "Must be pursuing regular full-time degree courses from a recognized Higher Education Institution (distance education not eligible).",
+      "Gross parental income must not exceed ₹4,50,000 per annum.",
+      "Cannot be in receipt of any other state or central scholarship simultaneously."
+    ],
+    "helpline": "0120-6619540",
+    "department": "Ministry of Education",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "aicte-pragati",
+    "name": "AICTE Pragati Scholarship for Girl Students",
+    "localizedName": {
+      "en": "AICTE Pragati Scholarship for Girl Students",
+      "hi": "छात्राओं के लिए एआईसीटीई प्रगति छात्रवृत्ति",
+      "kn": "ವಿದ್ಯಾರ್ಥಿನಿಯರಿಗಾಗಿ ಎಐಸಿಟಿಇ ಪ್ರಗತಿ ವಿದ್ಯಾರ್ಥಿವೇತನ"
+    },
+    "description": {
+      "en": "Scholarship awarded to girl students admitted to the first year of AICTE-approved technical diploma or degree courses to empower women through technical education.",
+      "hi": "तकनीकी शिक्षा के माध्यम से महिलाओं को सशक्त बनाने के लिए एआईसीटीई-अनुमोदित तकनीकी डिप्लोमा या डिग्री पाठ्यक्रमों के पहले वर्ष में प्रवेशित छात्राओं के लिए छात्रवृत्ति।",
+      "kn": "ತಾಂತ್ರಿಕ ಶಿಕ್ಷಣದ ಮೂಲಕ ಮಹಿಳೆಯರ ಸಬಲೀಕರಣಕ್ಕಾಗಿ ಎಐಸಿಟಿಇ ಮಾನ್ಯತೆ ಪಡೆದ ಡಿಪ್ಲೊಮಾ ಅಥವಾ ಎಂಜಿನಿಯರಿಂಗ್/ತಾಂತ್ರಿಕ ಪದವಿಯ ಮೊದಲ ವರ್ಷಕ್ಕೆ ಪ್ರವೇಶ ಪಡೆದ ವಿದ್ಯಾರ್ಥಿನಿಯರಿಗೆ ವಿದ್ಯಾರ್ಥಿವೇತನ."
+    },
+    "benefits": [
+      {
+        "en": "Financial assistance of ₹50,000 per annum for every year of study towards college fee payment, computer, books, and equipment.",
+        "hi": "कॉलेज शुल्क, कंप्यूटर, किताबें और उपकरण खरीदने के लिए अध्ययन के प्रत्येक वर्ष ₹50,000 प्रति वर्ष की वित्तीय सहायता।",
+        "kn": "ಕಾಲೇಜು ಶುಲ್ಕ, ಪುಸ್ತಕಗಳು, ಲ್ಯಾಪ್‌ಟಾಪ್ ಖರೀದಿಗಾಗಿ ವ್ಯಾಸಂಗದ ಪ್ರತಿ ವರ್ಷಕ್ಕೆ ₹50,000 ಆರ್ಥಿಕ ನೆರವು."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "gender",
+        "operator": "eq",
+        "value": "female",
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      },
+      {
+        "attribute": "educationLevel",
+        "operator": "in",
+        "value": ["undergraduate", "higher_secondary"],
+        "required": true
+      },
+      {
+        "attribute": "incomeBracket",
+        "operator": "in",
+        "value": ["below_poverty_line", "low", "lower_middle"],
+        "required": false
+      }
+    ],
+    "documents": [
+      {
+        "en": "Class 10 and Class 12 / ITI Marksheet",
+        "hi": "10वीं और 12वीं / आईटीआई अंकतालिका",
+        "kn": "10ನೇ ಮತ್ತು 12ನೇ ತರಗತಿ ಅಂಕಪಟ್ಟಿ"
+      },
+      {
+        "en": "Allotment letter showing centralized admission to AICTE-approved technical degree/diploma course",
+        "hi": "एआईसीटीई अनुमोदित तकनीकी संस्थान में प्रवेश आवंटन पत्र",
+        "kn": "ಎಐಸಿಟಿಇ ಮಾನ್ಯತೆ ಪಡೆದ ಕಾಲೇಜು ಪ್ರವೇಶ ಹಂಚಿಕೆ ಪತ್ರ"
+      },
+      {
+        "en": "Income Certificate of parents (annual income less than ₹8 lakh)",
+        "hi": "माता-पिता का आय प्रमाण पत्र (वार्षिक आय ₹8 लाख से कम)",
+        "kn": "ಪೋಷಕರ ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ (ವಾರ್ಷಿಕ ಆದಾಯ ₹8 ಲಕ್ಷ ಮೀರಬಾರದು)"
+      },
+      {
+        "en": "Aadhaar Card and Student Bank Account details",
+        "hi": "आधार कार्ड और बैंक खाता विवरण",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್ ಮತ್ತು ಬ್ಯಾಂಕ್ ಖಾತೆ ವಿವರ"
+      }
+    ],
+    "state": "All India",
+    "category": ["women", "technical education", "scholarships"],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://www.aicte-india.org",
+    "sourceName": "All India Council for Technical Education (AICTE)",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Candidate must be admitted to 1st year degree/diploma (or 2nd year through lateral entry) in an AICTE-approved institution.",
+      "Maximum two girls per family are eligible.",
+      "Family annual income must not exceed ₹8 lakh per annum."
+    ],
+    "helpline": "0120-6619540",
+    "department": "Ministry of Education / AICTE",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "aicte-saksham",
+    "name": "AICTE Saksham Scholarship for Differently Abled Students",
+    "localizedName": {
+      "en": "AICTE Saksham Scholarship for Differently Abled Students",
+      "hi": "दिव್ಯಾंग छात्रों के लिए एआईसीटीई सक्षम छात्रवृत्ति",
+      "kn": "ವಿಶೇಷ ಚೇತನ ವಿದ್ಯಾರ್ಥಿಗಳಿಗಾಗಿ ಎಐಸಿಟಿಇ ಸಕ್ಷಮ್ ವಿದ್ಯಾರ್ಥಿವೇತನ"
+    },
+    "description": {
+      "en": "Scholarship providing encouragement and financial support to specially-abled students with disabilities of not less than 40% pursuing technical degree or diploma education.",
+      "hi": "तकनीकी डिग्री या डिप्लोमा शिक्षा प्राप्त करने वाले 40% से अधिक दिव्यांगता वाले विशेष रूप से सक्षम छात्रों को वित्तीय सहायता और प्रोत्साहन।",
+      "kn": "ತಾಂತ್ರಿಕ ಪದವಿ ಅಥವಾ ಡಿಪ್ಲೊಮಾ ವ್ಯಾಸಂಗ ಮಾಡುತ್ತಿರುವ ಶೇ.40 ಕ್ಕಿಂತ ಹೆಚ್ಚು ಅಂಗವಿಕಲತೆ ಹೊಂದಿರುವ ವಿಶೇಷ ಚೇತನ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಆರ್ಥಿಕ ನೆರವು."
+    },
+    "benefits": [
+      {
+        "en": "Financial aid of ₹50,000 per annum for each year of study towards college fees, books, assistive devices, and educational software.",
+        "hi": "कॉलेज शुल्क, किताबें, सहायक उपकरण और शैक्षिक सॉफ्टवेयर के लिए प्रति वर्ष ₹50,000 की वित्तीय सहायता।",
+        "kn": "ಕಾಲೇಜು ಶುಲ್ಕ, ಪುಸ್ತಕಗಳು, ಸಹಾಯಕ ಉಪಕರಣಗಳ ಖರೀದಿಗಾಗಿ ಪ್ರತಿ ವರ್ಷಕ್ಕೆ ₹50,000 ಆರ್ಥಿಕ ಸಹಾಯ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "disability",
+        "operator": "eq",
+        "value": "yes",
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      },
+      {
+        "attribute": "educationLevel",
+        "operator": "in",
+        "value": ["undergraduate", "higher_secondary"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Valid Disability Certificate / UDID Card showing minimum 40% benchmark disability",
+        "hi": "न्यूनतम 40% दिव्यांगता दर्शाने वाला वैध दिव्यांगता प्रमाण पत्र / यूडीआईडी कार्ड",
+        "kn": "ಕನಿಷ್ಠ ಶೇ.40 ರಷ್ಟು ಅಂಗವೈಕಲ್ಯ ದೃಢೀಕರಿಸುವ ಪ್ರಮಾಣಪತ್ರ ಅಥವಾ ಯುಡಿಐಡಿ ಕಾರ್ಡ್"
+      },
+      {
+        "en": "Admission allotment letter into AICTE approved degree/diploma technical institution",
+        "hi": "एआईसीटीई अनुमोदित तकनीकी संस्थान में प्रवेश आवंटन पत्र",
+        "kn": "ಎಐಸಿಟಿಇ ಮಾನ್ಯತೆ ಪಡೆದ ಕಾಲೇಜಿನ ಪ್ರವೇಶ ಪತ್ರ"
+      },
+      {
+        "en": "Income Certificate showing family income below ₹8 lakh per annum",
+        "hi": "वार्षिक पारिवारिक आय ₹8 लाख से कम दर्शाने वाला आय प्रमाण पत्र",
+        "kn": "ವಾರ್ಷಿಕ ಆದಾಯ ₹8 ಲಕ್ಷ ಮೀರದ ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ"
+      },
+      {
+        "en": "Aadhaar Card and Student Bank Account details",
+        "hi": "आधार कार्ड और बैंक खाता विवरण",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್ ಮತ್ತು ಬ್ಯಾಂಕ್ ಖಾತೆ ವಿವರ"
+      }
+    ],
+    "state": "All India",
+    "category": ["disability", "technical education", "scholarships"],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://www.aicte-india.org",
+    "sourceName": "All India Council for Technical Education (AICTE)",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Student must have a disability level of not less than 40% issued by competent medical authority.",
+      "Must be admitted to 1st year (or lateral entry) in an AICTE approved technical degree or diploma programme.",
+      "Total family income must not exceed ₹8 lakh per annum."
+    ],
+    "helpline": "0120-6619540",
+    "department": "Ministry of Education / AICTE",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "postmatric-disability",
+    "name": "Post-Matric Scholarship for Students with Disabilities",
+    "localizedName": {
+      "en": "Post-Matric Scholarship for Students with Disabilities",
+      "hi": "दिव्यांग छात्रों के लिए पोस्ट-मैट्रिक छात्रवृत्ति",
+      "kn": "ಅಂಗವಿಕಲ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಮೆಟ್ರಿಕ್ ನಂತರದ ವಿದ್ಯಾರ್ಥಿವೇತನ"
+    },
+    "description": {
+      "en": "Central scheme providing financial assistance to students with benchmark disabilities for pursuing post-matriculation studies from Class 11 up to postgraduate degrees.",
+      "hi": "कक्षा 11 से लेकर स्नातकोत्तर डिग्री तक मैट्रिक के बाद की पढ़ाई जारी रखने के लिए दिव्यांग छात्रों को वित्तीय सहायता प्रदान करने वाली केंद्रीय योजना।",
+      "kn": "11ನೇ ತರಗತಿಯಿಂದ ಸ್ನಾತಕೋತ್ತರ ಹಂತದವರೆಗೆ ಮೆಟ್ರಿಕ್ ನಂತರದ ಶಿಕ್ಷಣ ಮುಂದುವರಿಸಲು ಅಂಗವಿಕಲ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಆರ್ಥಿಕ ನೆರವು ನೀಡುವ ಕೇಂದ್ರ ಸರ್ಕಾರದ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Reimbursement of non-refundable compulsory fees, along with monthly maintenance allowance, book allowance, and disability allowance.",
+        "hi": "अनिवार्य कॉलेज शुल्क की प्रतिपूर्ति, साथ ही मासिक रखरखाव भत्ता, पुस्तक भत्ता और दिव्यांगता भत्ता।",
+        "kn": "ಕಾಲೇಜು ಬೋಧನಾ ಶುಲ್ಕ ಮರುಪಾವತಿ, ಜೊತೆಗೆ ಮಾಸಿಕ ನಿರ್ವಹಣಾ ಭತ್ಯೆ ಮತ್ತು ಪುಸ್ತಕ ಭತ್ಯೆ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "disability",
+        "operator": "eq",
+        "value": "yes",
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      },
+      {
+        "attribute": "incomeBracket",
+        "operator": "in",
+        "value": ["below_poverty_line", "low"],
+        "required": false
+      }
+    ],
+    "documents": [
+      {
+        "en": "Disability Certificate / UDID card issued by competent medical board (min 40% disability)",
+        "hi": "सक्षम मेडिकल बोर्ड द्वारा जारी दिव्यांगता प्रमाण पत्र / यूडीआईडी कार्ड (न्यूनतम 40%)",
+        "kn": "ಸಕ್ಷಮ ವೈದ್ಯಕೀಯ ಮಂಡಳಿ ನೀಡಿರುವ ಅಂಗವಿಕಲತೆ ಪ್ರಮಾಣಪತ್ರ / ಯುಡಿಐಡಿ (ಕನಿಷ್ಠ ಶೇ.40)"
+      },
+      {
+        "en": "Income Certificate showing annual parental income not exceeding ₹2.5 lakh",
+        "hi": "आय प्रमाण पत्र (वार्षिक आय ₹2.5 लाख से कम)",
+        "kn": "ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ (ವಾರ್ಷಿಕ ಆದಾಯ ₹2.5 ಲಕ್ಷ ಮೀರಿರಬಾರದು)"
+      },
+      {
+        "en": "Previous examination marksheet (Class 10 or subsequent qualifying exam)",
+        "hi": "पिछली परीक्षा की अंकतालिका (10वीं या समकक्ष)",
+        "kn": "ಹಿಂದಿನ ಪರೀಕ್ಷೆಯ ಅಂಕಪಟ್ಟಿ (ಎಸ್ಸೆಸ್ಸೆಲ್ಸಿ ಅಥವಾ ತತ್ಸಮಾನ)"
+      },
+      {
+        "en": "College admission fee receipt",
+        "hi": "कॉलेज प्रवेश शुल्क रसीद",
+        "kn": "ಕಾಲೇಜು ಶುಲ್ಕ ಪಾವತಿ ರಸೀದಿ"
+      }
+    ],
+    "state": "All India",
+    "category": ["disability", "higher education", "scholarships"],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://disabilityaffairs.gov.in",
+    "sourceName": "Department of Empowerment of Persons with Disabilities (DEPwD)",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Applicant must possess certified benchmark disability of 40% or above.",
+      "Must be studying in Class 11, 12, ITI, Diploma, Undergraduate, or Postgraduate degree course.",
+      "Parental/guardian annual income must not exceed ₹2,50,000."
+    ],
+    "helpline": "0120-6619540",
+    "department": "Ministry of Social Justice and Empowerment",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "nfshest",
+    "name": "National Fellowship and Scholarship for Higher Education of ST Students",
+    "localizedName": {
+      "en": "National Fellowship and Scholarship for Higher Education of ST Students",
+      "hi": "अनुसूचित जनजाति छात्रों के लिए उच्च शिक्षा की राष्ट्रीय फेलोशिप और छात्रवृत्ति",
+      "kn": "ಪರಿಶಿಷ್ಟ ಪಂಗಡ (ಎಸ್‌ಟಿ) ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಉನ್ನತ ಶಿಕ್ಷಣದ ರಾಷ್ಟ್ರೀಯ ಫೆಲೋಶಿಪ್ ಮತ್ತು ವಿದ್ಯಾರ್ಥಿವೇತನ"
+    },
+    "description": {
+      "en": "Central scheme providing financial assistance to meritorious Scheduled Tribe (ST) students for pursuing graduate/post-graduate professional courses and M.Phil / Ph.D. research degrees.",
+      "hi": "प्रतिष्ठित संस्थानों में व्यावसायिक स्नातक पाठ्यक्रमों और एम.फिल/पीएच.डी. शोध करने वाले अनुसूचित जनजाति के छात्रों के लिए छात्रवृत्ति और फेलोशिप।",
+      "kn": "ಗುರುತಿಸಲ್ಪಟ್ಟ ಪ್ರಮುಖ ಸಂಸ್ಥೆಗಳಲ್ಲಿ ಉನ್ನತ ವ್ಯಾಸಂಗ ಅಥವಾ ಪಿಎಚ್.ಡಿ ಸಂಶೋಧನೆ ನಡೆಸುತ್ತಿರುವ ಪರಿಶಿಷ್ಟ ಪಂಗಡದ (ಎಸ್‌ಟಿ) ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಫೆಲೋಶಿಪ್ ಮತ್ತು ವಿದ್ಯಾರ್ಥಿವೇತನ."
+    },
+    "benefits": [
+      {
+        "en": "Full tuition fee reimbursement for top institutions, plus monthly fellowship stipend for M.Phil / Ph.D. research students as per UGC norms.",
+        "hi": "शीर्ष संस्थानों के लिए पूर्ण ट्यूशन फीस प्रतिपूर्ति, साथ ही यूजीसी मानदंडों के अनुसार शोध छात्रों के लिए मासिक फेलोशिप।",
+        "kn": "ಸಂಪೂರ್ಣ ಕಾಲೇಜು ಶುಲ್ಕ ಮರುಪಾವತಿ, ಜೊತೆಗೆ ಯುಜಿಸಿ ನಿಯಮಾವಳಿಗಳಂತೆ ಸಂಶೋಧನಾ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಮಾಸಿಕ ಫೆಲೋಶಿಪ್ ಭತ್ಯೆ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "category",
+        "operator": "eq",
+        "value": "ST",
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      },
+      {
+        "attribute": "educationLevel",
+        "operator": "in",
+        "value": ["undergraduate", "postgraduate", "doctorate"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Scheduled Tribe (ST) Caste Certificate issued by competent revenue authority",
+        "hi": "सक्षम प्राधिकारी द्वारा जारी अनुसूचित जनजाति (अजजा) प्रमाण पत्र",
+        "kn": "ಕಂದಾಯ ಪ್ರಾಧಿಕಾರ ನೀಡಿದ ಪರಿಶಿಷ್ಟ ಪಂಗಡ (ಎಸ್‌ಟಿ) ಜಾತಿ ಪ್ರಮಾಣಪತ್ರ"
+      },
+      {
+        "en": "Income Certificate (family income not exceeding ₹6 lakh per annum for scholarship component)",
+        "hi": "आय प्रमाण पत्र (छात्रवृत्ति के लिए वार्षिक आय ₹6 लाख से कम)",
+        "kn": "ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ (ವಿದ್ಯಾರ್ಥಿವೇತನಕ್ಕೆ ಕುಟುಂಬದ ಆದಾಯ ₹6 ಲಕ್ಷ ಮೀರಿರಬಾರದು)"
+      },
+      {
+        "en": "Admission proof / Research registration letter from notified premier university or institution",
+        "hi": "अधिसूचित विश्वविद्यालय से प्रवेश या शोध पंजीकरण पत्र",
+        "kn": "ಮಾನ್ಯತೆ ಪಡೆದ ವಿಶ್ವವಿದ್ಯಾಲಯದ ಪ್ರವೇಶ ಪತ್ರ ಅಥವಾ ಸಂಶೋಧನಾ ನೋಂದಣಿ ಪತ್ರ"
+      },
+      {
+        "en": "Aadhaar Card and Student Bank Account details",
+        "hi": "आधार कार्ड और बैंक खाता विवरण",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್ ಮತ್ತು ಬ್ಯಾಂಕ್ ಖಾತೆ ವಿವರ"
+      }
+    ],
+    "state": "All India",
+    "category": ["ST", "tribal affairs", "research fellowship", "higher education"],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://tribal.gov.in",
+    "sourceName": "Ministry of Tribal Affairs",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Applicant must belong to a notified Scheduled Tribe community.",
+      "Admission must be secured in one of the premier institutes notified by the Ministry of Tribal Affairs.",
+      "For fellowship component (M.Phil/Ph.D.), there is no family income ceiling; for top-class scholarship, family income must be within ₹6 lakh."
+    ],
+    "helpline": "0120-6619540",
+    "department": "Ministry of Tribal Affairs",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "nsap-ignoaps",
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "localizedName": {
+      "en": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+      "hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना (आईजीएनओएपीएस)",
+      "kn": "ಇಂದಿರಾ ಗಾಂಧಿ ರಾಷ್ಟ್ರೀಯ ವೃದ್ಧಾಪ್ಯ ಪಿಂಚಣಿ ಯೋಜನೆ (ಐಜಿಎನ್‌ಒಎಪಿಎಸ್)"
+    },
+    "description": {
+      "en": "Non-contributory monthly pension scheme providing financial security to elderly citizens aged 60 and above living below the poverty line.",
+      "hi": "गरीबी रेखा से नीचे जीवन यापन करने वाले 60 वर्ष और उससे अधिक आयु के बुजुर्ग नागरिकों को वित्तीय सुरक्षा प्रदान करने वाली गैर-अंशदायी मासिक पेंशन।",
+      "kn": "ಬಡತನ ರೇಖೆಗಿಂತ ಕೆಳಗಿರುವ 60 ವರ್ಷ ಮತ್ತು ಅದಕ್ಕಿಂತ ಹೆಚ್ಚಿನ ವಯಸ್ಸಿನ ಹಿರಿಯ ನಾಗರಿಕರಿಗೆ ಆರ್ಥಿಕ ಭದ್ರತೆ ನೀಡುವ ಮಾಸಿಕ ವೃದ್ಧಾಪ್ಯ ಪಿಂಚಣಿ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Monthly pension (minimum ₹200/month for age 60-79, ₹500/month for age 80+, augmented significantly by state government top-ups, up to ₹1,000-₹2,000/month in many states including Karnataka).",
+        "hi": "मासिक पेंशन (60-79 आयु के लिए केंद्र द्वारा ₹200 और 80+ के लिए ₹500, साथ ही राज्य सरकारों द्वारा अतिरिक्त सहायता, कर्नाटक में ₹1,000-₹1,200 प्रति माह)।",
+        "kn": "ಮಾಸಿಕ ವೃದ್ಧಾಪ್ಯ ಪಿಂಚಣಿ (ಕೇಂದ್ರ ಸರ್ಕಾರದ ಪಾಲಿನ ಜೊತೆಗೆ ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ವತಿಯಿಂದ ಒಟ್ಟು ತಿಂಗಳಿಗೆ ₹1,000 ರಿಂದ ₹1,200 ವರೆಗೆ ಪಾವತಿ)."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "gte",
+        "value": 60,
+        "required": true
+      },
+      {
+        "attribute": "incomeBracket",
+        "operator": "in",
+        "value": ["below_poverty_line", "low"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Age Proof (Aadhaar / Voter ID / Birth Certificate showing age 60 or above)",
+        "hi": "आयु प्रमाण (आधार / मतदाता पहचान पत्र 60 वर्ष या उससे अधिक आयु दर्शाने वाला)",
+        "kn": "ವಯಸ್ಸಿನ ಪುರಾವೆ (60 ವರ್ಷ ಪೂರೈಸಿರುವುದನ್ನು ದೃಢೀಕರಿಸುವ ಆಧಾರ್ ಅಥವಾ ಗುರುತಿನ ಚೀಟಿ)"
+      },
+      {
+        "en": "BPL Ration Card / BPL inclusion certificate",
+        "hi": "बीपीएल राशन कार्ड / बीपीएल सूची में नाम का प्रमाण",
+        "kn": "ಬಿಪಿಎಲ್ ಪಡಿತರ ಚೀಟಿ / ಬಡತನ ರೇಖೆಗಿಂತ ಕೆಳಗಿರುವ ದೃಢೀಕರಣ ಪತ್ರ"
+      },
+      {
+        "en": "Bank or Post Office savings account passbook",
+        "hi": "बैंक या डाकघर बचत खाता पासबुक",
+        "kn": "ಬ್ಯಾಂಕ್ ಅಥವಾ ಅಂಚೆ ಕಚೇರಿ ಉಳಿತಾಯ ಖಾತೆ ಪಾಸ್‌ಬುಕ್"
+      }
+    ],
+    "state": "All India",
+    "category": ["social security", "pension", "senior citizens"],
+    "applicationUrl": "https://nsap.dord.gov.in",
+    "officialSource": "https://nsap.dord.gov.in",
+    "sourceName": "Ministry of Rural Development",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Applicant must be officially verified as belonging to a household below the poverty line (BPL) as per State criteria.",
+      "Applicant must not be receiving any other government social security pension.",
+      "State-specific pension amounts and local verification through Village Panchayat / Ward office apply."
+    ],
+    "helpline": "1800-11-6446",
+    "department": "National Social Assistance Programme (NSAP)",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "ab-pmjay",
+    "name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+    "localizedName": {
+      "en": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+      "hi": "आयुष्मान भारत - प्रधानमंत्री जन आरोग्य योजना (पीएम-जय)",
+      "kn": "ಆಯುಷ್ಮಾನ್ ಭಾರತ್ - ಪ್ರಧಾನ ಮಂತ್ರಿ ಜನ ಆರೋಗ್ಯ ಯೋಜನೆ (ಪಿಎಂ-ಜೆಎವೈ)"
+    },
+    "description": {
+      "en": "Health insurance entitlement providing cashless hospitalization coverage of up to ₹5 lakh per family per year for secondary and tertiary care across empanelled hospitals.",
+      "hi": "सूचीबद्ध अस्पतालों में द्वितीयक और तृतीयक देखभाल के लिए प्रति परिवार प्रति वर्ष ₹5 लाख तक का कैशलेस अस्पताल में भर्ती कवर प्रदान करने वाली स्वास्थ्य योजना।",
+      "kn": "ನೋಂದಾಯಿತ ಆಸ್ಪತ್ರೆಗಳಲ್ಲಿ ಗಂಭೀರ ಕಾಯಿಲೆಗಳ ಚಿಕಿತ್ಸೆಗಾಗಿ ಪ್ರತಿ ಕುಟುಂಬಕ್ಕೆ ವಾರ್ಷಿಕ ₹5 ಲಕ್ಷದವರೆಗೆ ನಗದು ರಹಿತ ಉಚಿತ ಚಿಕಿತ್ಸೆ ನೀಡುವ ಆರೋಗ್ಯ ವಿಮಾ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Cashless and paperless access to medical services up to ₹5 lakh per family per year covering pre-existing conditions, surgery, and diagnostics.",
+        "hi": "प्रति परिवार प्रति वर्ष ₹5 लाख तक कैशलेस चिकित्सा सेवा, जिसमें पहले से मौजूद बीमारियां, सर्जरी और जांच शामिल हैं।",
+        "kn": "ಕುಟುಂಬಕ್ಕೆ ವಾರ್ಷಿಕ ₹5 ಲಕ್ಷದವರೆಗೆ ಉಚಿತ ನಗದುರಹಿತ ಚಿಕಿತ್ಸೆ, ಶಸ್ತ್ರಚಿಕಿತ್ಸೆ, ಮತ್ತು ಆಸ್ಪತ್ರೆ ವೆಚ್ಚಗಳ ಭರಿಸುವಿಕೆ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "incomeBracket",
+        "operator": "in",
+        "value": ["below_poverty_line", "low"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Aadhaar Card",
+        "hi": "आधार कार्ड",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್"
+      },
+      {
+        "en": "Ration Card (BPL / Antyodaya Anna Yojana card) or family ID proof",
+        "hi": "राशन कार्ड (बीपीएल / अंत्योदय कार्ड) या परिवार पहचान पत्र",
+        "kn": "ಬಿಪಿಎಲ್ ಅಥವಾ ಅಂತ್ಯೋದಯ ಪಡಿತರ ಚೀಟಿ"
+      }
+    ],
+    "state": "All India",
+    "category": ["health", "healthcare", "insurance"],
+    "applicationUrl": "https://beneficiary.nha.gov.in",
+    "officialSource": "https://pmjay.gov.in",
+    "sourceName": "National Health Authority (NHA), Ministry of Health & Family Welfare",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Family must be identified in the eligible SECC database or State-expanded beneficiary database.",
+      "Senior citizens aged 70 and above are universally eligible under the Ayushman Vay Vandana expansion regardless of income, requiring separate verification via the NHA portal/app (cannot be fully evaluated by profile alone).",
+      "Treatment must be taken at an empanelled public or private hospital for covered medical packages."
+    ],
+    "helpline": "14555 / 1800-111-565",
+    "department": "National Health Authority",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "pmuy",
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "localizedName": {
+      "en": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+      "hi": "प्रधानमंत्री उज्ज्वला योजना (पीएमयूवाय)",
+      "kn": "ಪ್ರಧಾನ ಮಂತ್ರಿ ಉಜ್ವಲ ಯೋಜನೆ (ಪಿಎಂಯುಡಬ್ಲ್ಯೂವೈ)"
+    },
+    "description": {
+      "en": "Clean cooking fuel initiative providing deposit-free LPG gas connections with first refill and stove to adult women belonging to poor households.",
+      "hi": "गरीब परिवारों की वयस्क महिलाओं को पहली रिफिल और चूल्हे के साथ जमा-मुक्त एलपीजी गैस कनेक्शन प्रदान करने वाली स्वच्छ ईंधन पहल।",
+      "kn": "ಬಡ ಕುಟುಂಬಗಳ ವಯಸ್ಕ ಮಹಿಳೆಯರಿಗೆ ಠೇವಣಿ ರಹಿತ ಉಚಿತ ಎಲ್‌ಪಿಜಿ ಅನಿಲ ಸಂಪರ್ಕ, ಗ್ಯಾಸ್ ಸ್ಟೌವ್ ಮತ್ತು ಮೊದಲ ಸಿಲಿಂಡರ್ ಒದಗಿಸುವ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Deposit-free LPG connection including security deposit for cylinder, pressure regulator, DGT passbook, and first refill with gas stove free of cost.",
+        "hi": "जमा-मुक्त एलपीजी कनेक्शन: सिलेंडर, रेगुलेटर, पहली रिफिल और गैस चूल्हा पूरी तरह निःशुल्क।",
+        "kn": "ಉಚಿತ ಎಲ್‌ಪಿಜಿ ಗ್ಯಾಸ್ ಸಂಪರ್ಕ, ಸಿಲಿಂಡರ್, ರೆಗ್ಯುಲೇಟರ್, ಮೊದಲ ಸಿಲಿಂಡರ್ ಮರುಪೂರಣ ಮತ್ತು ಗ್ಯಾಸ್ ಸ್ಟೌವ್ ಉಚಿತವಾಗಿ ವಿತರಣೆ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "gender",
+        "operator": "eq",
+        "value": "female",
+        "required": true
+      },
+      {
+        "attribute": "age",
+        "operator": "gte",
+        "value": 18,
+        "required": true
+      },
+      {
+        "attribute": "incomeBracket",
+        "operator": "in",
+        "value": ["below_poverty_line", "low"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Aadhaar Card of the female applicant and adult family members",
+        "hi": "महिला आवेदिका और वयस्क परिवार के सदस्यों का आधार कार्ड",
+        "kn": "ಮಹಿಳಾ ಅರ್ಜಿದಾರರ ಮತ್ತು ಕುಟುಂಬದ ವಯಸ್ಕ ಸದಸ್ಯರ ಆಧಾರ್ ಕಾರ್ಡ್"
+      },
+      {
+        "en": "Ration Card / Family Composition proof issued by State Government",
+        "hi": "राज्य सरकार द्वारा जारी राशन कार्ड / पारिवारिक संरचना प्रमाण",
+        "kn": "ರಾಜ್ಯ ಸರ್ಕಾರ ನೀಡಿರುವ ಪಡಿತರ ಚೀಟಿ (ರೇಷನ್ ಕಾರ್ಡ್)"
+      },
+      {
+        "en": "Bank Account details linked to Aadhaar (for DBT subsidy)",
+        "hi": "आधार से जुड़ा बैंक खाता विवरण (सब्सिडी के लिए)",
+        "kn": "ಆಧಾರ್ ಲಿಂಕ್ ಆದ ಬ್ಯಾಂಕ್ ಖಾತೆ ವಿವರ"
+      }
+    ],
+    "state": "All India",
+    "category": ["women", "energy", "clean cooking fuel"],
+    "applicationUrl": "https://www.pmuy.gov.in",
+    "officialSource": "https://www.pmuy.gov.in",
+    "sourceName": "Ministry of Petroleum and Natural Gas",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "No member in the applicant's household should already possess an active LPG connection from any Oil Marketing Company.",
+      "Applicant must be an adult woman belonging to BPL, SC/ST, PMAY, Antyodaya, or poor household categories as validated by 14-point declaration.",
+      "Bank account must be seeded with Aadhaar for receiving targeted subsidy."
+    ],
+    "helpline": "1800-266-6696",
+    "department": "Ministry of Petroleum and Natural Gas",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "ka-gruha-lakshmi",
+    "name": "Karnataka Gruha Lakshmi Scheme",
+    "localizedName": {
+      "en": "Karnataka Gruha Lakshmi Scheme",
+      "hi": "कर्नाटक गृह लक्ष्मी योजना",
+      "kn": "ಕರ್ನಾಟಕ ಗೃಹ ಲಕ್ಷ್ಮಿ ಯೋಜನೆ"
+    },
+    "description": {
+      "en": "Flagship guarantee scheme of Karnataka providing ₹2,000 monthly financial assistance directly to the bank account of the woman designated as head of the family on ration cards.",
+      "hi": "कर्नाटक सरकार की गारंटी योजना जो राशन कार्ड पर परिवार की मुखिया महिला के बैंक खाते में सीधे ₹2,000 मासिक वित्तीय सहायता प्रदान करती है।",
+      "kn": "ಪಡಿತರ ಚೀಟಿಯಲ್ಲಿ ಕುಟುಂಬದ ಯಜಮಾನಿ ಎಂದು ನಮೂದಿಸಲಾದ ಮಹಿಳೆಗೆ ಪ್ರತಿ ತಿಂಗಳು ₹2,000 ನೇರ ಆರ್ಥಿಕ ಧನಸಹಾಯ ನೀಡುವ ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಮಹತ್ವಾಕಾಂಕ್ಷೆಯ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Monthly financial aid of ₹2,000 directly credited via DBT to the bank account of the eligible female family head.",
+        "hi": "पात्र महिला परिवार मुखिया के बैंक खाते में डीबीटी के माध्यम से ₹2,000 की मासिक वित्तीय सहायता।",
+        "kn": "ಅರ್ಹ ಮಹಿಳಾ ಕುಟುಂಬದ ಯಜಮಾನಿಯ ಬ್ಯಾಂಕ್ ಖಾತೆಗೆ ಡಿಬಿಟಿ ಮೂಲಕ ಪ್ರತಿ ತಿಂಗಳು ₹2,000 ನೇರ ಜಮೆ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "state",
+        "operator": "eq",
+        "value": "Karnataka",
+        "required": true
+      },
+      {
+        "attribute": "gender",
+        "operator": "eq",
+        "value": "female",
+        "required": true
+      },
+      {
+        "attribute": "age",
+        "operator": "gte",
+        "value": 18,
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Karnataka Food and Civil Supplies Ration Card (APL, BPL, or Antyodaya Card)",
+        "hi": "कर्नाटक खाद्य एवं नागरिक आपूर्ति राशन कार्ड (एपीएल, बीपीएल या अंत्योदय कार्ड)",
+        "kn": "ಕರ್ನಾಟಕ ಸರ್ಕಾರದ ಪಡಿತರ ಚೀಟಿ (ಬಿಪಿಎಲ್ / ಎಪಿಎಲ್ / ಅಂತ್ಯೋದಯ ಕಾರ್ಡ್)"
+      },
+      {
+        "en": "Aadhaar Card of the woman head of the family",
+        "hi": "परिवार की मुखिया महिला का आधार कार्ड",
+        "kn": "ಕುಟುಂಬದ ಯಜಮಾನಿಯ ಆಧಾರ್ ಕಾರ್ಡ್"
+      },
+      {
+        "en": "Aadhaar Card of the spouse (husband)",
+        "hi": "पति का आधार कार्ड",
+        "kn": "ಪತಿಯ ಆಧಾರ್ ಕಾರ್ಡ್"
+      },
+      {
+        "en": "Aadhaar-seeded bank account passbook",
+        "hi": "आधार से जुड़ा बैंक खाता पासबुक",
+        "kn": "ಆಧಾರ್ ಲಿಂಕ್ ಆದ ಬ್ಯಾಂಕ್ ಖಾತೆ ಪಾಸ್‌ಬುಕ್"
+      }
+    ],
+    "state": "Karnataka",
+    "category": ["women", "financial assistance", "karnataka guarantees"],
+    "applicationUrl": "https://sevasindhugs.karnataka.gov.in",
+    "officialSource": "https://sevasindhugs.karnataka.gov.in",
+    "sourceName": "Department of Women & Child Development, Government of Karnataka",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Woman applicant must be registered as the 'Head of the Family' in the Karnataka Food & Civil Supplies ration card database.",
+      "Neither the woman applicant nor her husband can be an income tax payer (IT returns filer) or GST payer.",
+      "Only one woman head per household ration card is entitled to the benefit.",
+      "Scheme is actively operational with periodic DBT releases; ongoing beneficiary re-verification and e-KYC/Aadhaar-bank seeding status must be verified on Seva Sindhu or DBT Karnataka app."
+    ],
+    "helpline": "1902 / 080-22279954",
+    "department": "Department of Women and Child Development",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "ka-yuva-nidhi",
+    "name": "Karnataka Yuva Nidhi Scheme",
+    "localizedName": {
+      "en": "Karnataka Yuva Nidhi Scheme",
+      "hi": "कर्नाटक युवा निधि योजना",
+      "kn": "ಕರ್ನಾಟಕ ಯುವ ನಿಧಿ ಯೋಜನೆ"
+    },
+    "description": {
+      "en": "Unemployment assistance scheme providing monthly stipend for up to 2 years to educated youth in Karnataka who graduated/completed diploma and remain unemployed.",
+      "hi": "कर्नाटक के शिक्षित युवाओं के लिए 2 वर्ष तक मासिक बेरोजगारी भत्ता जो स्नातक/डिप्लोमा पूरा करने के बाद भी बेरोजगार हैं।",
+      "kn": "ಪದವಿ ಅಥವಾ ಡಿಪ್ಲೊಮಾ ಮುಗಿಸಿ ಉದ್ಯೋಗ ಸಿಗದೆ ಇರುವ ಕರ್ನಾಟಕದ ಯುವಕ-ಯುವತಿಯರಿಗೆ 2 ವರ್ಷಗಳ ಕಾಲ ಮಾಸಿಕ ನಿರುದ್ಯೋಗ ಭತ್ಯೆ ನೀಡುವ ಯೋಜನೆ."
+    },
+    "benefits": [
+      {
+        "en": "Monthly unemployment assistance of ₹3,000 for degree holders and ₹1,500 for diploma holders for a maximum duration of 24 months or until employment.",
+        "hi": "डिग्री धारकों के लिए ₹3,000 और डिप्लोमा धारकों के लिए ₹1,500 का मासिक बेरोजगारी भत्ता (अधिकतम 2 वर्ष तक या रोजगार मिलने तक)।",
+        "kn": "ಪದವೀಧರರಿಗೆ ತಿಂಗಳಿಗೆ ₹3,000 ಹಾಗೂ ಡಿಪ್ಲೊಮಾ ಪಡೆದವರಿಗೆ ತಿಂಗಳಿಗೆ ₹1,500 ನಿರುದ್ಯೋಗ ಭತ್ಯೆ (ಗರಿಷ್ಠ 2 ವರ್ಷ ಅಥವಾ ಕೆಲಸ ಸಿಗುವವರೆಗೆ)."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "state",
+        "operator": "eq",
+        "value": "Karnataka",
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "unemployed",
+        "required": true
+      },
+      {
+        "attribute": "educationLevel",
+        "operator": "in",
+        "value": ["undergraduate", "postgraduate"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Karnataka Domicile / Study Certificate proving at least 6 years of education in Karnataka",
+        "hi": "कर्नाटक निवास / अध्ययन प्रमाण पत्र (कम से कम 6 वर्ष का अध्ययन)",
+        "kn": "ಕರ್ನಾಟಕದಲ್ಲಿ ಕನಿಷ್ಠ 6 ವರ್ಷ ವ್ಯಾಸಂಗ ಮಾಡಿದ ಪ್ರಮಾಣಪತ್ರ / ವಾಸಸ್ಥಳ ದೃಢೀಕರಣ"
+      },
+      {
+        "en": "Degree / Diploma Completion Certificate and final marksheets",
+        "hi": "डिग्री / डिप्लोमा पूर्णता प्रमाण पत्र और अंकतालिका",
+        "kn": "ಪದವಿ ಅಥವಾ ಡಿಪ್ಲೊಮಾ ತೇರ್ಗಡೆಯಾದ ಅಂಕಪಟ್ಟಿ ಮತ್ತು ಕಾನ್ವೊಕೇಷನ್ ಪ್ರಮಾಣಪತ್ರ"
+      },
+      {
+        "en": "Aadhaar Card linked with mobile number",
+        "hi": "मोबाइल से जुड़ा आधार कार्ड",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್ ಮತ್ತು ಲಿಂಕ್ ಆದ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ"
+      },
+      {
+        "en": "Aadhaar-seeded Bank Account Passbook",
+        "hi": "आधार से जुड़ा बैंक खाता पासबुक",
+        "kn": "ಆಧಾರ್ ಲಿಂಕ್ ಆದ ಬ್ಯಾಂಕ್ ಖಾತೆ ಪಾಸ್‌ಬುಕ್"
+      }
+    ],
+    "state": "Karnataka",
+    "category": ["youth", "unemployment stipend", "karnataka guarantees"],
+    "applicationUrl": "https://sevasindhugs.karnataka.gov.in",
+    "officialSource": "https://sevasindhugs.karnataka.gov.in",
+    "sourceName": "Department of Skill Development, Entrepreneurship and Livelihood, Karnataka",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Candidate must have completed graduation or diploma course in the academic year 2022-23 or later.",
+      "Must have remained continuously unemployed for at least 180 days (6 months) after passing.",
+      "Cannot be pursuing higher education or employed in private/public sector or self-employed."
+    ],
+    "helpline": "1902",
+    "department": "Skill Development and Livelihoods Department",
+    "verificationStatus": "verified"
+  },
+  {
+    "schemeId": "ka-vidyasiri",
+    "name": "Karnataka Vidyasiri (Food & Accommodation Scheme)",
+    "localizedName": {
+      "en": "Karnataka Vidyasiri (Food & Accommodation Scheme)",
+      "hi": "कर्नाटक विद्यासिरी (भोजन और आवास छात्रवृत्ति योजना)",
+      "kn": "ಕರ್ನಾಟಕ ವಿದ್ಯಾಸಿರಿ (ಊಟ ಮತ್ತು ವಸತಿ ಸಹಾಯ ಯೋಜನೆ)"
+    },
+    "description": {
+      "en": "Monthly financial stipend provided by Karnataka Backward Classes Welfare Department to post-matric OBC/SC/ST students who could not secure admission in departmental hostels.",
+      "hi": "कर्नाटक पिछड़ा वर्ग कल्याण विभाग द्वारा विभागीय छात्रावासों में प्रवेश न पाने वाले पोस्ट-मैट्रिक ओबीसी/एससी/एसटी छात्रों को भोजन और आवास हेतु मासिक वित्तीय वजीफा।",
+      "kn": "ಸರ್ಕಾರಿ ವಸತಿ ನಿಲಯಗಳಲ್ಲಿ ಪ್ರವೇಶ ಸಿಗದ ಮೆಟ್ರಿಕ್ ನಂತರದ ಹಿಂದುಳಿದ ವರ್ಗಗಳ (ಒಬಿಸಿ/ಎಸ್‌ಸಿ/ಎಸ್‌ಟಿ) ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಊಟ ಮತ್ತು ವಸತಿ ವೆಚ್ಚಕ್ಕಾಗಿ ನೀಡುವ ಮಾಸಿಕ ಧನಸಹಾಯ."
+    },
+    "benefits": [
+      {
+        "en": "Monthly stipend of ₹1,500 per month for 10 academic months (total ₹15,000 per year) directly credited to student's bank account.",
+        "hi": "10 शैक्षणिक महीनों के लिए ₹1,500 प्रति माह (कुल ₹15,000 प्रति वर्ष) का मासिक वजीफा सीधे छात्र के खाते में।",
+        "kn": "ವ್ಯಾಸಂಗದ 10 ತಿಂಗಳಿಗೆ ತಿಂಗಳಿಗೆ ₹1,500 ರಂತೆ (ವಾರ್ಷಿಕ ₹15,000) ವಿದ್ಯಾರ್ಥಿಯ ಖಾತೆಗೆ ನೇರ ನಗದು ವರ್ಗಾವಣೆ."
+      }
+    ],
+    "eligibility": [
+      {
+        "attribute": "state",
+        "operator": "eq",
+        "value": "Karnataka",
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      },
+      {
+        "attribute": "category",
+        "operator": "in",
+        "value": ["OBC", "SC", "ST"],
+        "required": true
+      },
+      {
+        "attribute": "incomeBracket",
+        "operator": "in",
+        "value": ["below_poverty_line", "low"],
+        "required": true
+      }
+    ],
+    "documents": [
+      {
+        "en": "Caste and Income Certificate issued by Karnataka Revenue Department (Category 1/2A/2B/3A/3B/SC/ST)",
+        "hi": "कर्नाटक राजस्व विभाग द्वारा जारी जाति और आय प्रमाण पत्र",
+        "kn": "ಕಂದಾಯ ಇಲಾಖೆ (ನಾಡಕಚೇರಿ) ನೀಡಿದ ಜಾತಿ ಮತ್ತು ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ"
+      },
+      {
+        "en": "Post-Matric College Admission Fee Receipt / College Study Certificate",
+        "hi": "कॉलेज प्रवेश शुल्क रसीद / अध्ययन प्रमाण पत्र",
+        "kn": "ಕಾಲೇಜು ಪ್ರವೇಶ ಶುಲ್ಕ ರಸೀದಿ / ವ್ಯಾಸಂಗ ಪ್ರಮಾಣಪತ್ರ"
+      },
+      {
+        "en": "SSLC / Previous qualifying exam marks card",
+        "hi": "एसएसएलसी / पिछली परीक्षा की अंकतालिका",
+        "kn": "ಎಸ್ಸೆಸ್ಸೆಲ್ಸಿ ಅಥವಾ ಹಿಂದಿನ ಪರೀಕ್ಷೆಯ ಅಂಕಪಟ್ಟಿ"
+      },
+      {
+        "en": "Aadhaar Card and Student Bank Account details",
+        "hi": "आधार कार्ड और बैंक खाता विवरण",
+        "kn": "ಆಧಾರ್ ಕಾರ್ಡ್ ಮತ್ತು ಬ್ಯಾಂಕ್ ಖಾತೆ ವಿವರ"
+      }
+    ],
+    "state": "Karnataka",
+    "category": ["education", "hostel stipend", "OBC", "karnataka schemes"],
+    "applicationUrl": "https://ssp.postmatric.karnataka.gov.in",
+    "officialSource": "https://bcwd.karnataka.gov.in",
+    "sourceName": "Backward Classes Welfare Department, Government of Karnataka",
+    "lastVerified": "2026-09-19",
+    "active": true,
+    "unknownConditions": [
+      "Student must be studying in a recognized post-matric course in Karnataka.",
+      "The distance between the student's hometown/residence and the college must be at least 5 kilometers.",
+      "Student must NOT be admitted to any government or departmental hostel.",
+      "Annual family income must not exceed ₹2.5 lakh for Category-1 and SC/ST, or ₹1 lakh for 2A, 2B, 3A, 3B categories."
+    ],
+    "helpline": "080-35254757 / 1902",
+    "department": "Backward Classes Welfare Department",
+    "verificationStatus": "verified"
+  }
+]

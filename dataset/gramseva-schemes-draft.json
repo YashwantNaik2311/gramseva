@@ -1,0 +1,2039 @@
+[
+  {
+    "schemeId": "pmjdy",
+    "name": "Pradhan Mantri Jan Dhan Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री जन धन योजना"
+    },
+    "description": "Financial inclusion scheme providing basic savings bank accounts with RuPay debit card and access to Direct Benefit Transfer. Unbanked/underbanked individuals can open a zero-balance account at any participating bank or Bank Mitra.",
+    "benefits": [
+      "Zero-balance basic savings bank account",
+      "RuPay debit card",
+      "Access to Direct Benefit Transfer (DBT)",
+      "Overdraft facility subject to eligibility conditions",
+      "Accident insurance cover linked to RuPay card (subject to conditions)"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Any eligible person seeking a basic bank account; KYC required. Minors can have accounts subject to banking rules. No income ceiling. Targets unbanked/underbanked individuals.",
+    "documents": [
+      "Aadhaar or OVD (Officially Valid Document)",
+      "Address proof",
+      "Photograph",
+      "KYC documentation"
+    ],
+    "state": "India",
+    "category": [
+      "Financial Inclusion"
+    ],
+    "applicationUrl": "https://pmjdy.gov.in",
+    "officialSource": "https://pmjdy.gov.in",
+    "sourceName": "PMJDY Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Applicant must satisfy KYC requirements as per bank/regulatory norms.",
+      "Overdraft facility is subject to specific eligibility conditions set by the bank.",
+      "RuPay card insurance benefits are subject to additional conditions."
+    ],
+    "helpline": "1800-11-0001",
+    "department": "Ministry of Finance – Department of Financial Services",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Bank channels"
+    ],
+    "targetGroup": "Individuals/households",
+    "renewalFrequency": "Account-based"
+  },
+  {
+    "schemeId": "pmsby",
+    "name": "Pradhan Mantri Suraksha Bima Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री सुरक्षा बीमा योजना"
+    },
+    "description": "Government-backed accident insurance scheme offering accidental death and disability cover at a nominal annual premium via auto-debit from a bank or post-office account.",
+    "benefits": [
+      "Accidental death or total disability cover: ₹2 lakh",
+      "Partial disability cover: ₹1 lakh (subject to policy terms)",
+      "Low annual premium (auto-debited)"
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "between",
+        "value": [
+          18,
+          70
+        ],
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible bank or post-office account holder aged 18–70 years. No income criterion. Annual premium via auto-debit. Coverage/exclusion conditions apply as per policy.",
+    "documents": [
+      "Aadhaar / KYC documents",
+      "Bank account details",
+      "Consent for auto-debit",
+      "Nominee details"
+    ],
+    "state": "India",
+    "category": [
+      "Insurance"
+    ],
+    "applicationUrl": "https://jansuraksha.gov.in",
+    "officialSource": "https://jansuraksha.gov.in",
+    "sourceName": "Jan Suraksha Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Applicant must hold an eligible bank or post-office account.",
+      "Policy exclusions apply; cover is subject to scheme terms.",
+      "Premium and terms can be revised by the government."
+    ],
+    "helpline": "1800-180-1111 / 1800-110-001",
+    "department": "Ministry of Finance – Department of Financial Services",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Bank/post office channels"
+    ],
+    "targetGroup": "Individual account holders",
+    "renewalFrequency": "Annual renewal"
+  },
+  {
+    "schemeId": "pmjjby",
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री जीवन ज्योति बीमा योजना"
+    },
+    "description": "Government-backed life insurance scheme offering ₹2 lakh death cover at a low annual premium via auto-debit from a bank or post-office account.",
+    "benefits": [
+      "₹2 lakh life cover for death (subject to policy terms)",
+      "Low annual premium (auto-debited)"
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "between",
+        "value": [
+          18,
+          50
+        ],
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible bank or post-office account holder. Entry age 18–50 years; renewal can continue subject to scheme rules. No income criterion. Auto-renewal with auto-debit.",
+    "documents": [
+      "Aadhaar / KYC documents",
+      "Bank account details",
+      "Consent for auto-debit",
+      "Nominee details"
+    ],
+    "state": "India",
+    "category": [
+      "Insurance"
+    ],
+    "applicationUrl": "https://jansuraksha.gov.in",
+    "officialSource": "https://jansuraksha.gov.in",
+    "sourceName": "Jan Suraksha Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Applicant must hold an eligible bank or post-office account.",
+      "Policy exclusions and renewal conditions apply.",
+      "Check current premium and policy exclusions before enrolling."
+    ],
+    "helpline": "1800-180-1111 / 1800-110-001",
+    "department": "Ministry of Finance – Department of Financial Services",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Bank/post office channels"
+    ],
+    "targetGroup": "Individual account holders",
+    "renewalFrequency": "Annual renewal"
+  },
+  {
+    "schemeId": "apy",
+    "name": "Atal Pension Yojana",
+    "localizedName": {
+      "hi": "अटल पेंशन योजना"
+    },
+    "description": "Pension scheme for eligible Indian citizens to receive a guaranteed minimum pension of ₹1,000–₹5,000/month after age 60, based on chosen contribution level.",
+    "benefits": [
+      "Guaranteed minimum pension of ₹1,000–₹5,000/month after age 60 (amount depends on contribution level)",
+      "Subscriber contributions via auto-debit"
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "between",
+        "value": [
+          18,
+          40
+        ],
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Indian citizen with a savings bank or post-office account, aged 18–40 years for new subscription. New income-tax payers are not eligible under current rules. Exit/withdrawal rules apply.",
+    "documents": [
+      "Aadhaar / mobile (where applicable)",
+      "Bank or post-office account details",
+      "Nomination details"
+    ],
+    "state": "India",
+    "category": [
+      "Pension"
+    ],
+    "applicationUrl": "https://pfrda.org.in",
+    "officialSource": "https://pfrda.org.in",
+    "sourceName": "PFRDA Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "New income-tax payers are excluded; income-tax status must be verified.",
+      "Pension amount depends on selected contribution tier.",
+      "Exit/withdrawal rules govern early exit."
+    ],
+    "helpline": "1800-110-069",
+    "department": "PFRDA / Ministry of Finance",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Bank/post office channels"
+    ],
+    "targetGroup": "Eligible citizens",
+    "renewalFrequency": "Contribution-based"
+  },
+  {
+    "schemeId": "pmmy",
+    "name": "Pradhan Mantri MUDRA Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री मुद्रा योजना"
+    },
+    "description": "Provides loans to non-corporate, non-farm micro/small businesses under Shishu, Kishore, Tarun and enhanced Tarun Pro categories through participating banks, NBFCs, and MFIs.",
+    "benefits": [
+      "Business loans under Shishu (up to ₹50,000), Kishore (₹50,001–₹5 lakh), Tarun (₹5 lakh–₹10 lakh), and Tarun Pro (up to ₹20 lakh) categories",
+      "No collateral for Shishu loans"
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "in",
+        "value": [
+          "self-employed",
+          "entrepreneur"
+        ],
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible non-corporate, non-farm micro/small business applicants through lending institutions. Generally adult borrowers with lender KYC. No single universal income ceiling; lender/project assessment applies. Loan is subject to lender appraisal.",
+    "documents": [
+      "Aadhaar / PAN / KYC",
+      "Bank statement",
+      "Business/project details",
+      "Quotations (for equipment)"
+    ],
+    "state": "India",
+    "category": [
+      "Credit/Enterprise"
+    ],
+    "applicationUrl": "https://mudra.org.in",
+    "officialSource": "https://mudra.org.in",
+    "sourceName": "MUDRA Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Loan is subject to lender appraisal and eligible business activities.",
+      "Collateral and guarantee terms depend on applicable product/rules.",
+      "Eligible activities are defined under MUDRA scheme guidelines."
+    ],
+    "helpline": "1800-180-1111",
+    "department": "Ministry of Finance – Department of Financial Services",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "Lender branch"
+    ],
+    "targetGroup": "Micro entrepreneurs",
+    "renewalFrequency": "Loan repayment schedule"
+  },
+  {
+    "schemeId": "standup-india",
+    "name": "Stand-Up India",
+    "localizedName": {
+      "hi": "स्टैंड-अप इंडिया"
+    },
+    "description": "Provides composite bank loans of ₹10 lakh to ₹1 crore to SC/ST or women entrepreneurs for setting up new greenfield enterprises.",
+    "benefits": [
+      "Composite bank loan generally ₹10 lakh–₹1 crore for eligible greenfield enterprises"
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "gte",
+        "value": 18,
+        "required": true
+      },
+      {
+        "attribute": "category",
+        "operator": "in",
+        "value": [
+          "SC",
+          "ST",
+          "Woman"
+        ],
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "SC/ST or woman entrepreneur; must be establishing a greenfield enterprise; at least 51% shareholding/control by eligible category in non-individual enterprises. Not for existing businesses. Borrower must meet lender and scheme conditions. Age 18+.",
+    "documents": [
+      "Aadhaar / PAN",
+      "Caste certificate (where applicable)",
+      "Address / KYC",
+      "Project report",
+      "Bank documents"
+    ],
+    "state": "India",
+    "category": [
+      "Enterprise/Credit"
+    ],
+    "applicationUrl": "https://standupmitra.in",
+    "officialSource": "https://standupmitra.in",
+    "sourceName": "Stand-Up Mitra Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Must be a greenfield enterprise; not applicable for existing businesses.",
+      "At least 51% shareholding/control by eligible category in non-individual enterprises.",
+      "Lender appraisal and scheme conditions apply."
+    ],
+    "helpline": "1800-180-1111",
+    "department": "Department of Financial Services / Government of India",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "Bank branch"
+    ],
+    "targetGroup": "Women; SC/ST entrepreneurs",
+    "renewalFrequency": "One project/loan"
+  },
+  {
+    "schemeId": "pm-kisan",
+    "name": "Pradhan Mantri Kisan Samman Nidhi",
+    "localizedName": {
+      "hi": "प्रधानमंत्री किसान सम्मान निधि"
+    },
+    "description": "Direct income support of ₹6,000/year in three equal instalments to eligible landholding farmer families via DBT.",
+    "benefits": [
+      "₹6,000 per year in 3 equal DBT instalments of ₹2,000 each"
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "farmer",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible landholding farmer families with cultivable land, subject to exclusions. Exclusion categories include income-tax payers, institutional landholders, and certain officials/professionals. e-KYC required. No fixed age for farmer family benefit.",
+    "documents": [
+      "Aadhaar",
+      "Bank account (linked)",
+      "Land records",
+      "Mobile number",
+      "e-KYC completion"
+    ],
+    "state": "India",
+    "category": [
+      "Agriculture/DBT"
+    ],
+    "applicationUrl": "https://pmkisan.gov.in",
+    "officialSource": "https://pmkisan.gov.in",
+    "sourceName": "PM-KISAN Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Beneficiary must be identified through state land records and verified against exclusion list.",
+      "Income-tax payers and several government/professional categories are excluded.",
+      "e-KYC must be completed.",
+      "State land record verification is required."
+    ],
+    "helpline": "155261 / 011-24300606",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "CSC/state channels"
+    ],
+    "targetGroup": "Farmers",
+    "renewalFrequency": "Periodic instalments"
+  },
+  {
+    "schemeId": "pmfby",
+    "name": "Pradhan Mantri Fasal Bima Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री फसल बीमा योजना"
+    },
+    "description": "Crop insurance scheme for farmers growing notified crops in notified areas/seasons, with capped premium rates and protection against crop loss.",
+    "benefits": [
+      "Crop-loss insurance with government-subsidised premium rates (farmer premium rates capped)",
+      "Coverage for notified crops in notified seasons/areas"
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "farmer",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Farmers growing notified crops in notified areas/seasons. No general age or income criterion. Only notified crops/areas/seasons covered. Reporting and claim deadlines apply.",
+    "documents": [
+      "Aadhaar / KYC",
+      "Land/tenancy/cultivation proof",
+      "Crop details",
+      "Bank account"
+    ],
+    "state": "India",
+    "category": [
+      "Agriculture/Insurance"
+    ],
+    "applicationUrl": "https://pmfby.gov.in",
+    "officialSource": "https://pmfby.gov.in",
+    "sourceName": "PMFBY Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Only notified crops, areas, and seasons are eligible.",
+      "State/season notifications control applicability.",
+      "Enrollment must be before notified cut-off date.",
+      "Claim deadlines and reporting requirements apply."
+    ],
+    "helpline": "14447",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "Offline",
+      "Bank/CSC/insurer"
+    ],
+    "targetGroup": "Farmers",
+    "renewalFrequency": "Seasonal"
+  },
+  {
+    "schemeId": "mgnregs",
+    "name": "Mahatma Gandhi National Rural Employment Guarantee Scheme",
+    "localizedName": {
+      "hi": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी योजना"
+    },
+    "description": "Guarantees up to 100 days of unskilled manual wage employment per year to any rural household whose adult members volunteer for such work.",
+    "benefits": [
+      "Up to 100 days of guaranteed wage employment per rural household per year",
+      "Legal entitlement to work on demand"
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "gte",
+        "value": 18,
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Adult member (18+) of a rural household willing to do unskilled manual work. No household income ceiling. Rural residence is a core condition. Work availability is subject to demand and scheme rules.",
+    "documents": [
+      "Job card / household details",
+      "Aadhaar (where used)",
+      "Bank or post-office account"
+    ],
+    "state": "India",
+    "category": [
+      "Employment/Rural Development"
+    ],
+    "applicationUrl": "https://nrega.nic.in",
+    "officialSource": "https://nrega.nic.in",
+    "sourceName": "MGNREGA Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Applicant must belong to a rural household.",
+      "Work availability depends on demand and Gram Panchayat allocation.",
+      "Wages and local implementation vary by state."
+    ],
+    "helpline": "1800-11-6446",
+    "department": "Ministry of Rural Development",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Gram Panchayat"
+    ],
+    "targetGroup": "Rural households",
+    "renewalFrequency": "Annual/demand-based"
+  },
+  {
+    "schemeId": "pmay-g",
+    "name": "Pradhan Mantri Awas Yojana–Gramin",
+    "localizedName": {
+      "hi": "प्रधानमंत्री आवास योजना–ग्रामीण"
+    },
+    "description": "Financial assistance for construction of a pucca house to eligible rural houseless/kutcha-house households identified through prescribed government processes.",
+    "benefits": [
+      "Financial assistance for construction of a pucca house",
+      "Convergence support with other government schemes"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Eligible rural houseless/kutcha-house households identified through prescribed socio-economic/deprivation criteria and local administration processes. No fixed age requirement; household-based. State/UT implementation conditions apply.",
+    "documents": [
+      "Aadhaar / ID",
+      "Bank account",
+      "Household/land details",
+      "Beneficiary verification records"
+    ],
+    "state": "India",
+    "category": [
+      "Housing/Rural"
+    ],
+    "applicationUrl": "https://pmayg.nic.in",
+    "officialSource": "https://pmayg.nic.in",
+    "sourceName": "PMAY-G Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Beneficiary must be identified through prescribed government identification/deprivation process.",
+      "Eligibility is not self-declared; it is based on official deprivation criteria and housing conditions.",
+      "State/UT implementation conditions apply."
+    ],
+    "helpline": "1800-11-6446",
+    "department": "Ministry of Rural Development",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Online monitoring"
+    ],
+    "targetGroup": "Rural households",
+    "renewalFrequency": "Project-based"
+  },
+  {
+    "schemeId": "pmay-u-2",
+    "name": "Pradhan Mantri Awas Yojana–Urban 2.0",
+    "localizedName": {
+      "hi": "प्रधानमंत्री आवास योजना–शहरी 2.0"
+    },
+    "description": "Urban housing scheme providing financial assistance/interest subsidy for EWS, LIG, and MIG urban families who do not own a pucca house anywhere in India. Active from September 2024 to 2029.",
+    "benefits": [
+      "Housing assistance/interest subsidy based on income category and component",
+      "Interest subsidy up to 4% on home loans up to ₹25 lakh (ISS component)",
+      "Central financial assistance of up to ₹2.30 lakh crore for the scheme overall"
+    ],
+    "eligibility": [
+      {
+        "attribute": "incomeBracket",
+        "operator": "lte",
+        "value": "9L",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible urban families not owning a pucca house anywhere in India. Annual income categories: EWS up to ₹3 lakh, LIG ₹3–6 lakh, MIG ₹6–9 lakh. Must not have previously benefited from a central/state housing scheme in last 20 years. Component-specific conditions apply (BLC, AHP, ISS, ARH).",
+    "documents": [
+      "Aadhaar",
+      "Income proof / self-declaration",
+      "Address proof",
+      "Bank details",
+      "Property/house ownership declaration"
+    ],
+    "state": "India",
+    "category": [
+      "Housing/Urban"
+    ],
+    "applicationUrl": "https://pmaymis.gov.in",
+    "officialSource": "https://pmay-urban.gov.in",
+    "sourceName": "PMAY-Urban Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Applicant must not own a pucca house anywhere in India.",
+      "Component-specific conditions apply (BLC, AHP, ISS, ARH).",
+      "Must not have previously availed a central/state housing scheme benefit in last 20 years.",
+      "EWS/LIG/MIG classification must be verified through official income documents."
+    ],
+    "helpline": "011-23060484",
+    "department": "Ministry of Housing & Urban Affairs",
+    "verificationStatus": "verified",
+    "applicationMode": [
+      "Online",
+      "ULB/CSC"
+    ],
+    "targetGroup": "Urban households",
+    "renewalFrequency": "Component-based"
+  },
+  {
+    "schemeId": "ab-pmjay",
+    "name": "Ayushman Bharat–Pradhan Mantri Jan Arogya Yojana",
+    "localizedName": {
+      "hi": "आयुष्मान भारत – प्रधानमंत्री जन आरोग्य योजना"
+    },
+    "description": "World's largest government-funded health insurance scheme providing cashless hospitalisation cover up to ₹5 lakh per family per year for secondary and tertiary care at empanelled hospitals. Expanded to include all citizens aged 70+ regardless of income (2024).",
+    "benefits": [
+      "Cashless hospitalisation cover up to ₹5 lakh per family per year",
+      "Coverage for secondary and tertiary care at empanelled hospitals",
+      "Pre-existing diseases covered from day one",
+      "Senior citizens (70+) receive additional ₹5 lakh top-up cover"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Government-identified eligible beneficiary families/persons as per SECC/beneficiary database; ASHA/Anganwadi workers and families; all citizens aged 70+ (expanded in 2024, regardless of income). No age limit for original SECC-based framework. Check eligibility at pmjay.gov.in or dial 14555.",
+    "documents": [
+      "Aadhaar / valid ID",
+      "Ration card / family ID",
+      "Beneficiary verification documents"
+    ],
+    "state": "India",
+    "category": [
+      "Health"
+    ],
+    "applicationUrl": "https://pmjay.gov.in",
+    "officialSource": "https://pmjay.gov.in",
+    "sourceName": "PM-JAY Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Eligibility is primarily based on SECC/beneficiary database identification; cannot be self-declared.",
+      "Beneficiary must be identified in the official PM-JAY database.",
+      "Only covered procedures and empanelled facilities are eligible.",
+      "State-specific expansions and exclusions may apply.",
+      "70+ senior citizen expansion: verify via official portal as eligibility documentation may differ."
+    ],
+    "helpline": "14555 / 1800-111-565",
+    "department": "Ministry of Health & Family Welfare / National Health Authority",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "CSC",
+      "Empanelled hospital"
+    ],
+    "targetGroup": "Eligible poor/vulnerable households; senior citizens 70+",
+    "renewalFrequency": "Ongoing"
+  },
+  {
+    "schemeId": "pmuy",
+    "name": "Pradhan Mantri Ujjwala Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री उज्ज्वला योजना"
+    },
+    "description": "Provides LPG connections to eligible adult women from poor households without an existing LPG connection, to promote clean cooking fuel.",
+    "benefits": [
+      "Free LPG connection",
+      "Applicable financial/support benefits under current scheme guidelines",
+      "First refill support (subject to current policy)"
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "gte",
+        "value": 18,
+        "required": true
+      },
+      {
+        "attribute": "gender",
+        "operator": "eq",
+        "value": "female",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Adult woman (18+) from eligible poor household with no existing LPG connection in the household. Eligibility under prescribed categories/declaration. Household must not already have an LPG connection.",
+    "documents": [
+      "Aadhaar",
+      "Address proof",
+      "Ration card / family composition document",
+      "Bank details",
+      "KYC"
+    ],
+    "state": "India",
+    "category": [
+      "LPG/Women"
+    ],
+    "applicationUrl": "https://pmuy.gov.in",
+    "officialSource": "https://pmuy.gov.in",
+    "sourceName": "PMUY Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Household must not already have an LPG connection.",
+      "Applicant must meet current poverty/category eligibility criteria.",
+      "Refill support is subject to current policy/guidelines."
+    ],
+    "helpline": "1800-266-6696",
+    "department": "Ministry of Petroleum & Natural Gas",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "LPG distributor"
+    ],
+    "targetGroup": "Women in eligible households",
+    "renewalFrequency": "Connection-based; refill support subject to current policy"
+  },
+  {
+    "schemeId": "jjm",
+    "name": "Jal Jeevan Mission",
+    "localizedName": {
+      "hi": "जल जीवन मिशन"
+    },
+    "description": "Rural tap water supply infrastructure programme providing functional household tap connections to rural households under state/UT implementation.",
+    "benefits": [
+      "Functional household tap-water supply (Har Ghar Jal)",
+      "Source sustainability and water-quality infrastructure"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Rural households and villages under state/UT implementation. No age or income criterion. Coverage and connection timing depend on state/village plans and water-source feasibility.",
+    "documents": [
+      "Household / local-body records",
+      "ID where required locally"
+    ],
+    "state": "India",
+    "category": [
+      "Water/Rural Infrastructure"
+    ],
+    "applicationUrl": "https://jaljeevanmission.gov.in",
+    "officialSource": "https://jaljeevanmission.gov.in",
+    "sourceName": "Jal Jeevan Mission Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Coverage and implementation depend on state/village plans and water-source feasibility.",
+      "Connection timing varies by local project and state execution."
+    ],
+    "helpline": "1800-121-2121",
+    "department": "Ministry of Jal Shakti – Dept. of Drinking Water & Sanitation",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Gram Panchayat"
+    ],
+    "targetGroup": "Rural households",
+    "renewalFrequency": "Infrastructure-based"
+  },
+  {
+    "schemeId": "sbm",
+    "name": "Swachh Bharat Mission",
+    "localizedName": {
+      "hi": "स्वच्छ भारत मिशन"
+    },
+    "description": "National sanitation programme covering toilet construction, solid/liquid waste management, and cleanliness infrastructure through rural and urban components.",
+    "benefits": [
+      "Household toilet construction incentive (rural/urban component specific)",
+      "Solid and liquid waste management infrastructure",
+      "Cleanliness infrastructure for communities/local bodies"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Beneficiaries/local bodies according to rural or urban component. No fixed age. No universal income rule; beneficiary eligibility varies by component. Benefits differ between rural (SBM-G) and urban (SBM-U) components.",
+    "documents": [
+      "Household / beneficiary details",
+      "ID and bank details (where incentive applies)"
+    ],
+    "state": "India",
+    "category": [
+      "Sanitation"
+    ],
+    "applicationUrl": "https://swachhbharatmission.gov.in",
+    "officialSource": "https://swachhbharatmission.gov.in",
+    "sourceName": "Swachh Bharat Mission Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Benefits and eligibility vary between rural (SBM-G) and urban (SBM-U) components.",
+      "Apply through appropriate rural or urban portal.",
+      "Duplicate/unsupported claims are excluded."
+    ],
+    "helpline": "1969",
+    "department": "Ministry of Jal Shakti / Ministry of Housing & Urban Affairs",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Online"
+    ],
+    "targetGroup": "Households/communities/local bodies",
+    "renewalFrequency": "Project/component-based"
+  },
+  {
+    "schemeId": "pm-surya-ghar",
+    "name": "PM Surya Ghar: Muft Bijli Yojana",
+    "localizedName": {
+      "hi": "पीएम सूर्य घर: मुफ्त बिजली योजना"
+    },
+    "description": "Central financial assistance (subsidy) for residential rooftop solar installation, providing up to 300 units of free electricity per month for eligible consumers.",
+    "benefits": [
+      "Central financial assistance (CFA/subsidy) linked to installed capacity",
+      "Up to 300 units of free electricity per month (capacity-dependent)",
+      "Net metering facility"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Residential electricity consumers with eligible grid-connected premises. No general income ceiling. No fixed age criterion. CFA limits depend on eligible capacity and current guidelines. DISCOM technical/net-metering conditions apply.",
+    "documents": [
+      "Electricity consumer number",
+      "Aadhaar / KYC",
+      "Bank account",
+      "Mobile number",
+      "Installation details"
+    ],
+    "state": "India",
+    "category": [
+      "Renewable Energy"
+    ],
+    "applicationUrl": "https://pmsuryaghar.gov.in",
+    "officialSource": "https://pmsuryaghar.gov.in",
+    "sourceName": "PM Surya Ghar National Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Applicant must be a residential electricity consumer with eligible grid-connected premises.",
+      "DISCOM technical conditions and net-metering approval required.",
+      "CFA limits and subsidy slabs depend on current guidelines.",
+      "Only one installation/CFA claim per premises subject to rules."
+    ],
+    "helpline": "15555",
+    "department": "Ministry of New & Renewable Energy",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "Residential consumers",
+    "renewalFrequency": "One installation/CFA subject to rules"
+  },
+  {
+    "schemeId": "pmmvy",
+    "name": "Pradhan Mantri Matru Vandana Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री मातृ वंदना योजना"
+    },
+    "description": "Maternity benefit scheme providing conditional cash transfers to eligible pregnant and lactating women for their first child (and second if a girl, under current guidelines).",
+    "benefits": [
+      "Cash maternity benefit linked to prescribed registration and health conditions",
+      "Benefit amount as per current PMMVY guidelines (check latest guidelines)"
+    ],
+    "eligibility": [
+      {
+        "attribute": "gender",
+        "operator": "eq",
+        "value": "female",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible pregnant/lactating women meeting current PMMVY criteria. Benefit is conditional on parity/category and registration conditions. Socio-economic/category eligibility conditions apply. Exact benefit amount and conditions depend on current guidelines.",
+    "documents": [
+      "Aadhaar",
+      "Aadhaar-linked bank/post-office account",
+      "MCP/RCH records",
+      "Birth/pregnancy details",
+      "Eligibility proof"
+    ],
+    "state": "India",
+    "category": [
+      "Women/Maternity"
+    ],
+    "applicationUrl": "https://pmmvy.wcd.gov.in",
+    "officialSource": "https://pmmvy.wcd.gov.in",
+    "sourceName": "PMMVY Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Benefit is conditional on prescribed parity/category and registration conditions.",
+      "Socio-economic/category eligibility conditions apply; check current guidelines.",
+      "Exact benefit amount depends on current PMMVY phase guidelines."
+    ],
+    "helpline": "011-23388052",
+    "department": "Ministry of Women & Child Development",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "Anganwadi"
+    ],
+    "targetGroup": "Women",
+    "renewalFrequency": "Pregnancy/childbirth-based"
+  },
+  {
+    "schemeId": "ssy",
+    "name": "Sukanya Samriddhi Yojana",
+    "localizedName": {
+      "hi": "सुकन्या समृद्धि योजना"
+    },
+    "description": "Government-backed small-savings scheme for a girl child (below 10 at account opening) offering competitive interest rates and tax benefits.",
+    "benefits": [
+      "Government-backed small-savings account with notified interest rate",
+      "Tax benefits under Section 80C",
+      "Maturity proceeds for girl child's higher education/marriage"
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "lte",
+        "value": 10,
+        "required": true
+      },
+      {
+        "attribute": "gender",
+        "operator": "eq",
+        "value": "female",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Account opened by parent/legal guardian for an eligible girl child generally below 10 years of age. One account per girl; maximum two accounts per guardian. Deposit/maturity/withdrawal rules apply. Interest rate is subject to government notification.",
+    "documents": [
+      "Girl child's birth certificate",
+      "Guardian KYC",
+      "Address proof",
+      "Photographs",
+      "PAN/Aadhaar as applicable"
+    ],
+    "state": "India",
+    "category": [
+      "Savings/Girl Child"
+    ],
+    "applicationUrl": "https://indiapost.gov.in",
+    "officialSource": "https://indiapost.gov.in",
+    "sourceName": "India Post Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Interest rate can change by government notification.",
+      "Deposit, maturity, and premature withdrawal rules apply.",
+      "Generally one account per girl child; maximum two per guardian (for two girls)."
+    ],
+    "helpline": "1800-266-6868",
+    "department": "Ministry of Finance / Department of Economic Affairs",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Post office/authorised bank"
+    ],
+    "targetGroup": "Girl children/guardians",
+    "renewalFrequency": "Regular deposits; maturity-based"
+  },
+  {
+    "schemeId": "nsap",
+    "name": "National Social Assistance Programme",
+    "localizedName": {
+      "hi": "राष्ट्रीय सामाजिक सहायता कार्यक्रम"
+    },
+    "description": "Social pension and family benefit programme with components for elderly (IGNOAPS), widows (IGNWPS), persons with disabilities (IGNDPS), and bereaved families (NFBS).",
+    "benefits": [
+      "Monthly social pension under applicable components (IGNOAPS, IGNWPS, IGNDPS)",
+      "One-time family benefit under NFBS",
+      "State supplementation may apply"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Eligible vulnerable persons/households under NSAP components and state rules. Age varies by component: old-age (60+), widow, disability components have prescribed ages. Generally targets BPL/eligible vulnerable households. State top-ups and rules may vary.",
+    "documents": [
+      "Aadhaar / ID",
+      "Age/disability/death proof",
+      "Household/income/BPL details",
+      "Bank account"
+    ],
+    "state": "India",
+    "category": [
+      "Social Security"
+    ],
+    "applicationUrl": "https://nsap.nic.in",
+    "officialSource": "https://nsap.nic.in",
+    "sourceName": "NSAP Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Component-specific eligibility must be checked (IGNOAPS, IGNWPS, IGNDPS, NFBS).",
+      "BPL/eligible household status must be verified through state/UT records.",
+      "State top-ups and implementation rules may vary significantly."
+    ],
+    "helpline": "1800-11-6446",
+    "department": "Ministry of Rural Development",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Online"
+    ],
+    "targetGroup": "Vulnerable households (elderly, widows, disabled, bereaved)",
+    "renewalFrequency": "Monthly/one-time by component"
+  },
+  {
+    "schemeId": "pmkvy",
+    "name": "Pradhan Mantri Kaushal Vikas Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री कौशल विकास योजना"
+    },
+    "description": "Skill training and certification programme enabling candidates to enrol in approved skill courses at certified training centres, with applicable incentives and industry-aligned certification.",
+    "benefits": [
+      "Skill training in approved job roles",
+      "Assessment and industry-recognised certification",
+      "Applicable incentives and placement support"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Indian candidates meeting course/job-role requirements. No universal income ceiling. Course eligibility and centre availability apply. Current PMKVY phase and job-role list should be checked.",
+    "documents": [
+      "Aadhaar / ID",
+      "Bank details",
+      "Education documents (where required by course)"
+    ],
+    "state": "India",
+    "category": [
+      "Skill Development"
+    ],
+    "applicationUrl": "https://skillindiadigital.gov.in",
+    "officialSource": "https://skillindiadigital.gov.in",
+    "sourceName": "Skill India Digital Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Course-specific eligibility and training centre availability must be verified.",
+      "Current PMKVY phase and eligible job-role list should be confirmed.",
+      "Assessment rules and certification conditions apply."
+    ],
+    "helpline": "88000-55555",
+    "department": "Ministry of Skill Development & Entrepreneurship",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "Training centre"
+    ],
+    "targetGroup": "Students/job seekers/youth",
+    "renewalFrequency": "Course-based"
+  },
+  {
+    "schemeId": "naps",
+    "name": "National Apprenticeship Promotion Scheme",
+    "localizedName": {
+      "hi": "राष्ट्रीय शिक्षुता संवर्धन योजना"
+    },
+    "description": "Promotes apprenticeship training by providing government support toward stipend/training costs for apprentices and establishments.",
+    "benefits": [
+      "Government support toward apprenticeship training/stipend as applicable",
+      "Structured on-the-job training under an establishment"
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "gte",
+        "value": 14,
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible apprentices and establishments registered under the apprenticeship framework. Generally 14+ subject to trade/minimum-age rules; hazardous trades may require higher age. No universal income criterion. Trade-specific age/qualification conditions apply.",
+    "documents": [
+      "Aadhaar / ID",
+      "Educational certificates",
+      "Bank account",
+      "Establishment documents"
+    ],
+    "state": "India",
+    "category": [
+      "Apprenticeship"
+    ],
+    "applicationUrl": "https://apprenticeshipindia.gov.in",
+    "officialSource": "https://apprenticeshipindia.gov.in",
+    "sourceName": "Apprenticeship India Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Trade-specific age and qualification conditions apply.",
+      "Establishment must be registered under the apprenticeship framework.",
+      "Stipend/support amounts governed by current rules."
+    ],
+    "helpline": "1800-258-0433",
+    "department": "Ministry of Skill Development & Entrepreneurship",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "Apprentices/employers",
+    "renewalFrequency": "Training-term based"
+  },
+  {
+    "schemeId": "pmegp",
+    "name": "Prime Minister's Employment Generation Programme",
+    "localizedName": {
+      "hi": "प्रधानमंत्री रोजगार सृजन कार्यक्रम"
+    },
+    "description": "Credit-linked margin-money subsidy programme for eligible new micro-enterprises, implemented through KVIC, KVIB, DICs and banks.",
+    "benefits": [
+      "Credit-linked margin-money subsidy for new micro-enterprises",
+      "Subsidy percentage varies by category and location",
+      "Project loan through participating bank"
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "gte",
+        "value": 18,
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Individuals 18+, SHGs and eligible organisations for new viable micro-enterprises. No income ceiling for individual assistance; project limits and own-contribution rules apply. Existing subsidised units and ineligible activities are excluded. Bank appraisal required.",
+    "documents": [
+      "Aadhaar",
+      "Photo",
+      "Education certificate (where required)",
+      "Category certificate",
+      "Project report",
+      "Bank details"
+    ],
+    "state": "India",
+    "category": [
+      "Enterprise/Subsidy"
+    ],
+    "applicationUrl": "https://kviconline.gov.in/pmegpeportal",
+    "officialSource": "https://kviconline.gov.in/pmegpeportal",
+    "sourceName": "PMEGP e-Portal (KVIC)",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Project must be for a new/first viable micro-enterprise.",
+      "Existing/subsidised units and ineligible activities are excluded.",
+      "Own contribution and bank appraisal are required.",
+      "Project ceiling and subsidy rates vary by category/location."
+    ],
+    "helpline": "1800-3000-0034",
+    "department": "Ministry of MSME / KVIC",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "KVIC/KVIB/DIC"
+    ],
+    "targetGroup": "Entrepreneurs/SHGs",
+    "renewalFrequency": "Project-based"
+  },
+  {
+    "schemeId": "pm-svanidhi",
+    "name": "PM Street Vendor's AtmaNirbhar Nidhi",
+    "localizedName": {
+      "hi": "पीएम स्वनिधि (PM SVANidhi)"
+    },
+    "description": "Collateral-free working-capital loans with interest subsidy and digital transaction incentives for eligible urban and peri-urban street vendors.",
+    "benefits": [
+      "Collateral-free working-capital loan (loan amount increases with repayment cycles)",
+      "Interest subsidy on loan",
+      "Digital transaction incentives"
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "in",
+        "value": [
+          "self-employed",
+          "worker"
+        ],
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible urban/peri-urban street vendors. Must hold Certificate of Vending (CoV), Identity Card/Letter of Recommendation (LoR) from ULB, or be covered by survey. Loan is repayable. Current loan tranche limits and incentives should be checked.",
+    "documents": [
+      "Aadhaar / ID",
+      "Certificate of Vending (CoV) / ID / LoR",
+      "Mobile number",
+      "Bank account"
+    ],
+    "state": "India",
+    "category": [
+      "Credit/Livelihood"
+    ],
+    "applicationUrl": "https://pmsvanidhi.mohua.gov.in",
+    "officialSource": "https://pmsvanidhi.mohua.gov.in",
+    "sourceName": "PM SVANidhi Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Vendor must be covered by ULB survey or hold a Certificate of Vending / Letter of Recommendation.",
+      "Lender conditions and loan repayment apply.",
+      "Current loan tranche limits and incentive amounts should be verified."
+    ],
+    "helpline": "1800-11-6446",
+    "department": "Ministry of Housing & Urban Affairs",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "ULB/lender"
+    ],
+    "targetGroup": "Street vendors",
+    "renewalFrequency": "Loan cycles/repayment based"
+  },
+  {
+    "schemeId": "day-nrlm",
+    "name": "Deendayal Antyodaya Yojana–National Rural Livelihoods Mission",
+    "localizedName": {
+      "hi": "दीनदयाल अंत्योदय योजना – राष्ट्रीय ग्रामीण आजीविका मिशन"
+    },
+    "description": "Rural livelihoods mission promoting self-help groups (SHGs) among poor rural women, with credit linkage, skills training, and enterprise support.",
+    "benefits": [
+      "Self-help group formation and institutional support",
+      "Credit linkage to banks",
+      "Skill and livelihood training",
+      "Enterprise and financial inclusion support"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Rural poor households, with women-led SHGs central to the mission. No fixed age for household participation; SHG norms apply. Targets poor/vulnerable rural households. Not a universal cash grant. State SRLM procedures and SHG eligibility apply.",
+    "documents": [
+      "Aadhaar / KYC",
+      "Bank account",
+      "SHG records",
+      "Local eligibility/verification documents"
+    ],
+    "state": "India",
+    "category": [
+      "Livelihoods/Rural"
+    ],
+    "applicationUrl": "https://aajeevika.gov.in",
+    "officialSource": "https://aajeevika.gov.in",
+    "sourceName": "Aajeevika / DAY-NRLM Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "State SRLM procedures and SHG eligibility conditions apply.",
+      "Benefits are not a universal cash grant; implementation is state/community-institution led.",
+      "Household poverty status must be identified through local processes."
+    ],
+    "helpline": "1800-11-6446",
+    "department": "Ministry of Rural Development",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Online"
+    ],
+    "targetGroup": "Rural poor/SHGs",
+    "renewalFrequency": "Ongoing"
+  },
+  {
+    "schemeId": "aif",
+    "name": "Agriculture Infrastructure Fund",
+    "localizedName": {
+      "hi": "कृषि अवसंरचना निधि"
+    },
+    "description": "Debt financing with interest subvention and credit guarantee support for creating post-harvest management infrastructure and community farming assets.",
+    "benefits": [
+      "Interest subvention (3% p.a.) on loans for eligible agri-infrastructure projects",
+      "Credit guarantee support through NCGTC/CGTMSE",
+      "Loan up to ₹2 crore per project (for farmer-level projects)"
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "in",
+        "value": [
+          "farmer",
+          "entrepreneur"
+        ],
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible farmers, FPOs, PACS, agri-entrepreneurs, startups and other notified entities. No fixed age; entity/borrower rules apply. Project/business viability assessed. Only eligible infrastructure/projects qualify. Lender appraisal required.",
+    "documents": [
+      "KYC",
+      "Project report",
+      "Land/lease documents",
+      "Bank details",
+      "Entity registration (where applicable)"
+    ],
+    "state": "India",
+    "category": [
+      "Agriculture Infrastructure"
+    ],
+    "applicationUrl": "https://agriinfra.dac.gov.in",
+    "officialSource": "https://agriinfra.dac.gov.in",
+    "sourceName": "AIF Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Only eligible infrastructure projects qualify; current AIF guidelines govern.",
+      "Lender appraisal and scheme ceilings/terms apply.",
+      "Entity registration and project documentation required."
+    ],
+    "helpline": "1800-180-1551",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "Lender"
+    ],
+    "targetGroup": "Farmers/FPOs/entrepreneurs",
+    "renewalFrequency": "Project/loan-based"
+  },
+  {
+    "schemeId": "acabc",
+    "name": "Agri-Clinics and Agri-Business Centres Scheme",
+    "localizedName": {
+      "hi": "कृषि क्लिनिक और कृषि व्यापार केंद्र योजना"
+    },
+    "description": "Supports agriculture graduates and eligible allied-sector professionals to set up agri-clinics or agri-business ventures through training and credit-linked subsidy.",
+    "benefits": [
+      "Training for agri-clinic/agri-business establishment",
+      "Credit-linked subsidy/support for eligible ventures",
+      "Subsidy percentage/ceiling subject to current guidelines"
+    ],
+    "eligibility": [
+      {
+        "attribute": "educationLevel",
+        "operator": "in",
+        "value": [
+          "agriculture_graduate",
+          "allied_sector_diploma"
+        ],
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible agriculture/allied graduates/diploma holders and prescribed professionals. Adult applicants; qualification-specific. Project/lender conditions apply; subsidy norms differ by category.",
+    "documents": [
+      "Educational certificate",
+      "Aadhaar / PAN",
+      "Project report",
+      "Bank documents"
+    ],
+    "state": "India",
+    "category": [
+      "Agriculture Enterprise"
+    ],
+    "applicationUrl": "https://acabcmis.gov.in",
+    "officialSource": "https://acabcmis.gov.in",
+    "sourceName": "ACABC/MANAGE Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Qualification must match prescribed eligible degrees/diplomas.",
+      "Project viability and bank appraisal conditions apply.",
+      "Subsidy percentage/ceiling subject to current ACABC guidelines."
+    ],
+    "helpline": "1800-425-1556",
+    "department": "Ministry of Agriculture & Farmers Welfare / MANAGE",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "Training institution/bank"
+    ],
+    "targetGroup": "Agri professionals",
+    "renewalFrequency": "Project-based"
+  },
+  {
+    "schemeId": "pmmsy",
+    "name": "Pradhan Mantri Matsya Sampada Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री मत्स्य सम्पदा योजना"
+    },
+    "description": "Integrated fisheries development scheme providing support for production, infrastructure, value chain, and livelihoods across the fisheries sector.",
+    "benefits": [
+      "Support for fisheries production infrastructure and value chain",
+      "Livelihood support for fishers and fish farmers",
+      "Subsidy/contribution varies by component, category, and activity"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Fishers, fish farmers, entrepreneurs, SHGs, FPOs, cooperatives and eligible entities. No universal age or income criterion; component/state plan-specific. Component, state plan, and beneficiary contribution conditions apply.",
+    "documents": [
+      "Aadhaar / KYC",
+      "Bank details",
+      "Fisheries/project documents",
+      "Land/lease documents (where applicable)"
+    ],
+    "state": "India",
+    "category": [
+      "Fisheries"
+    ],
+    "applicationUrl": "https://dof.gov.in",
+    "officialSource": "https://dof.gov.in",
+    "sourceName": "Department of Fisheries Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Component and state-plan eligibility must be verified with the State Fisheries Department.",
+      "Beneficiary contribution requirements vary by component and category."
+    ],
+    "helpline": "011-23315377",
+    "department": "Department of Fisheries",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "State portal"
+    ],
+    "targetGroup": "Fishers/fish farmers/enterprises",
+    "renewalFrequency": "Project-based"
+  },
+  {
+    "schemeId": "pm-kmy",
+    "name": "Pradhan Mantri Kisan Maandhan Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री किसान मानधन योजना"
+    },
+    "description": "Voluntary contributory pension scheme providing eligible small and marginal farmers an assured pension of ₹3,000/month after age 60.",
+    "benefits": [
+      "Assured pension of ₹3,000/month after age 60",
+      "Government matching contribution"
+    ],
+    "eligibility": [
+      {
+        "attribute": "age",
+        "operator": "between",
+        "value": [
+          18,
+          40
+        ],
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "farmer",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Small and marginal farmers meeting landholding and scheme conditions, aged 18–40 years at entry. No broad income test; landholding and other exclusion rules apply. Voluntary contribution scheme. Government matching contribution subject to rules.",
+    "documents": [
+      "Aadhaar",
+      "Bank account",
+      "Land/farmer records",
+      "Age proof"
+    ],
+    "state": "India",
+    "category": [
+      "Pension/Agriculture"
+    ],
+    "applicationUrl": "https://maandhan.in",
+    "officialSource": "https://maandhan.in",
+    "sourceName": "Maandhan Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Landholding and occupation criteria must be verified through official records.",
+      "Exclusion criteria (e.g. income-tax payers, other pension beneficiaries) apply.",
+      "Government matching contribution is subject to current scheme rules."
+    ],
+    "helpline": "1800-3000-3468",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "CSC/online"
+    ],
+    "targetGroup": "Small/marginal farmers",
+    "renewalFrequency": "Monthly contribution"
+  },
+  {
+    "schemeId": "nmmss",
+    "name": "National Means-cum-Merit Scholarship Scheme",
+    "localizedName": {
+      "hi": "राष्ट्रीय साधन-सह-मेधा छात्रवृत्ति योजना"
+    },
+    "description": "Scholarship for meritorious students from economically weaker sections to prevent dropout at Class VIII transition and support study in Classes IX–XII.",
+    "benefits": [
+      "Annual scholarship support during eligible secondary/senior secondary study (Classes IX–XII)"
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Students selected through state-level selection test at Class VIII level. Parental income ceiling applies (check current guidelines). Minimum marks condition and government-school eligibility apply. Scholarship continues for Classes IX–XII subject to annual renewal.",
+    "documents": [
+      "Income certificate",
+      "Marksheet",
+      "Aadhaar / OTR",
+      "Bank account",
+      "School details"
+    ],
+    "state": "India",
+    "category": [
+      "Scholarship"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "National Scholarship Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Selection is through state-level examination; not self-declared.",
+      "Parental income ceiling applies; verify current threshold.",
+      "Government school attendance is generally required.",
+      "Minimum academic marks threshold applies."
+    ],
+    "helpline": "0120-6619540",
+    "department": "Ministry of Education",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "School students",
+    "renewalFrequency": "Annual renewal"
+  },
+  {
+    "schemeId": "pm-usp-css",
+    "name": "PM-USP Central Sector Scholarship Scheme for College and University Students",
+    "localizedName": {
+      "hi": "केंद्रीय क्षेत्र छात्रवृत्ति योजना (महाविद्यालय एवं विश्वविद्यालय)"
+    },
+    "description": "Scholarship for meritorious students in the top 20 percentile of their Class XII board pursuing regular eligible higher-education courses, with parental income ceiling.",
+    "benefits": [
+      "Annual scholarship amount according to course/study stage"
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Class XII students in top 20 percentile of board, pursuing regular eligible higher-education course and meeting income and other conditions. Parental income ceiling applies. Cannot generally draw another scholarship/benefit of the same type simultaneously.",
+    "documents": [
+      "Class XII marksheet",
+      "Income certificate",
+      "Aadhaar / OTR",
+      "Bank account",
+      "Admission proof"
+    ],
+    "state": "India",
+    "category": [
+      "Scholarship"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "National Scholarship Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Must be in top 20 percentile of Class XII board (state/CBSE/ICSE); verified from board records.",
+      "Parental income ceiling applies; verify current threshold.",
+      "Regular course enrollment at eligible institution required.",
+      "Cannot simultaneously draw another scholarship of the same type."
+    ],
+    "helpline": "0120-6619540",
+    "department": "Ministry of Education",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "College/university students",
+    "renewalFrequency": "Annual renewal"
+  },
+  {
+    "schemeId": "aicte-pragati",
+    "name": "AICTE Pragati Scholarship Scheme",
+    "localizedName": {
+      "hi": "एआईसीटीई प्रगति छात्रवृत्ति योजना"
+    },
+    "description": "Scholarship for eligible girl students in AICTE-approved technical diploma/degree institutions, with family income ceiling and annual renewal.",
+    "benefits": [
+      "Scholarship support for technical education (amount subject to current AICTE guidelines)"
+    ],
+    "eligibility": [
+      {
+        "attribute": "gender",
+        "operator": "eq",
+        "value": "female",
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible girl students in AICTE-approved technical diploma/degree institutions. Family income ceiling applies. Institution/course and other scholarship conditions apply. Current AICTE seat/beneficiary limits apply.",
+    "documents": [
+      "Aadhaar",
+      "Income certificate",
+      "Admission proof",
+      "Marksheets",
+      "Bank details",
+      "Category documents (if applicable)"
+    ],
+    "state": "India",
+    "category": [
+      "Scholarship/Women"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "National Scholarship Portal / AICTE",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Institution must be AICTE-approved.",
+      "Family income ceiling must be verified; check current AICTE guidelines.",
+      "Current beneficiary/seat limits apply."
+    ],
+    "helpline": "AICTE helpline / NSP support",
+    "department": "AICTE",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "Girl students in technical education",
+    "renewalFrequency": "Annual renewal"
+  },
+  {
+    "schemeId": "aicte-saksham",
+    "name": "AICTE Saksham Scholarship Scheme",
+    "localizedName": {
+      "hi": "एआईसीटीई सक्षम छात्रवृत्ति योजना"
+    },
+    "description": "Scholarship for students with specified disabilities in AICTE-approved technical institutions, with family income ceiling.",
+    "benefits": [
+      "Scholarship support for technical education for students with disabilities"
+    ],
+    "eligibility": [
+      {
+        "attribute": "disability",
+        "operator": "eq",
+        "value": true,
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible students with specified disability studying in AICTE-approved technical institutions. Family income ceiling applies. Disability threshold, course/institution and income conditions apply.",
+    "documents": [
+      "Disability certificate",
+      "Aadhaar",
+      "Income certificate",
+      "Admission/marksheet",
+      "Bank details"
+    ],
+    "state": "India",
+    "category": [
+      "Scholarship/Disability"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "National Scholarship Portal / AICTE",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Disability must meet prescribed threshold/benchmark; verified via disability certificate.",
+      "Institution must be AICTE-approved.",
+      "Family income ceiling must be verified against current AICTE guidelines."
+    ],
+    "helpline": "AICTE/NSP support",
+    "department": "AICTE",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "Students with disabilities in technical education",
+    "renewalFrequency": "Annual renewal"
+  },
+  {
+    "schemeId": "aicte-swanath",
+    "name": "AICTE Swanath Scholarship Scheme",
+    "localizedName": {
+      "hi": "एआईसीटीई स्वनाथ छात्रवृत्ति योजना"
+    },
+    "description": "Scholarship for orphans, wards of COVID-affected/deceased parents, and other specified vulnerable categories in AICTE-approved technical institutions.",
+    "benefits": [
+      "Scholarship support for technical education for vulnerable students"
+    ],
+    "eligibility": [
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible orphans, wards of COVID-affected/deceased parents and other categories specified by current guidelines, in AICTE-approved institutions. Family income ceiling applies. Check current AICTE category definition.",
+    "documents": [
+      "Relevant vulnerability/death/orphan certificate",
+      "Aadhaar",
+      "Income certificate",
+      "Admission proof",
+      "Marksheet",
+      "Bank details"
+    ],
+    "state": "India",
+    "category": [
+      "Scholarship"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "National Scholarship Portal / AICTE",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Applicant must belong to specified vulnerable categories per current AICTE guidelines.",
+      "Verification of orphan/vulnerability status required through official certificates.",
+      "Family income ceiling applies; verify current threshold.",
+      "Institution must be AICTE-approved."
+    ],
+    "helpline": "AICTE/NSP support",
+    "department": "AICTE",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "Vulnerable students in technical education",
+    "renewalFrequency": "Annual renewal"
+  },
+  {
+    "schemeId": "pm-yasasvi",
+    "name": "PM YASASVI Top Class Education Scheme",
+    "localizedName": {
+      "hi": "पीएम यशस्वी उच्च श्रेणी शिक्षा योजना"
+    },
+    "description": "Higher education financial support for eligible OBC, EBC, and DNT students admitted to notified top-class institutions.",
+    "benefits": [
+      "Tuition and academic/living-related financial support as prescribed",
+      "Support for students in notified top-class institutions"
+    ],
+    "eligibility": [
+      {
+        "attribute": "category",
+        "operator": "in",
+        "value": [
+          "OBC",
+          "EBC",
+          "DNT"
+        ],
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible OBC/EBC/DNT students admitted to notified top-class institutions/courses. Family income ceiling applies. Notified institutions/courses, income, category, and merit conditions apply.",
+    "documents": [
+      "Caste/category certificate",
+      "Income certificate",
+      "Admission proof",
+      "Marksheets",
+      "Aadhaar / OTR",
+      "Bank details"
+    ],
+    "state": "India",
+    "category": [
+      "Scholarship/Social Justice"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "National Scholarship Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Institution must be on the current notified list of top-class institutions.",
+      "Family income ceiling must be verified; check current guidelines.",
+      "Category (OBC/EBC/DNT) verification through official caste certificate."
+    ],
+    "helpline": "NSP support / Ministry channels",
+    "department": "Ministry of Social Justice & Empowerment",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "OBC/EBC/DNT students",
+    "renewalFrequency": "Annual renewal"
+  },
+  {
+    "schemeId": "nfshest",
+    "name": "National Fellowship and Scholarship for Higher Education of ST Students",
+    "localizedName": {
+      "hi": "अनुसूचित जनजाति छात्रों के लिए राष्ट्रीय फेलोशिप और छात्रवृत्ति"
+    },
+    "description": "Fellowship for research and scholarship for higher education for eligible Scheduled Tribe (ST) students pursuing approved courses.",
+    "benefits": [
+      "Fellowship for research (ST students pursuing M.Phil/Ph.D.)",
+      "Scholarship for post-matric higher education (ST students)"
+    ],
+    "eligibility": [
+      {
+        "attribute": "category",
+        "operator": "eq",
+        "value": "ST",
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible Scheduled Tribe students meeting fellowship/scholarship academic conditions. Income/other conditions depend on fellowship/scholarship component. Fellowship and scholarship are distinct components. Duplication/double-benefit rules apply.",
+    "documents": [
+      "ST certificate",
+      "Academic records",
+      "Admission/research documents",
+      "Aadhaar / OTR",
+      "Bank details"
+    ],
+    "state": "India",
+    "category": [
+      "Scholarship/Fellowship"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "National Scholarship Portal / Ministry of Tribal Affairs",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Academic and admission conditions vary between fellowship and scholarship components.",
+      "Income conditions apply to some components.",
+      "Duplication/double-benefit rules must be verified.",
+      "Fellowship is a separate component from scholarship."
+    ],
+    "helpline": "UGC/Ministry support channels",
+    "department": "Ministry of Tribal Affairs",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "ST students",
+    "renewalFrequency": "Annual/tenure-based"
+  },
+  {
+    "schemeId": "prematric-disability",
+    "name": "Pre-Matric Scholarship for Students with Disabilities",
+    "localizedName": {
+      "hi": "दिव्यांग छात्रों के लिए प्री-मैट्रिक छात्रवृत्ति"
+    },
+    "description": "Pre-matric scholarship and allowances for school students with benchmark disability, meeting class and family income criteria.",
+    "benefits": [
+      "Scholarship and allowances as prescribed for pre-matric stage"
+    ],
+    "eligibility": [
+      {
+        "attribute": "disability",
+        "operator": "eq",
+        "value": true,
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible students with benchmark disability at pre-matric school stage. Family income ceiling applies. Age is tied to class level. Disability threshold, class, income, and other scholarship conditions apply.",
+    "documents": [
+      "Disability certificate",
+      "Income certificate",
+      "Aadhaar / OTR",
+      "School certificate",
+      "Bank details"
+    ],
+    "state": "India",
+    "category": [
+      "Scholarship/Disability"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "National Scholarship Portal / DEPwD",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Disability must meet benchmark threshold; verified via official disability certificate.",
+      "Family income ceiling must be verified.",
+      "Current academic class guidelines govern eligibility."
+    ],
+    "helpline": "NSP support",
+    "department": "Department of Empowerment of Persons with Disabilities",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "School students with disabilities",
+    "renewalFrequency": "Annual renewal"
+  },
+  {
+    "schemeId": "postmatric-disability",
+    "name": "Post-Matric Scholarship for Students with Disabilities",
+    "localizedName": {
+      "hi": "दिव्यांग छात्रों के लिए पोस्ट-मैट्रिक छात्रवृत्ति"
+    },
+    "description": "Post-matric scholarship for students with benchmark disability pursuing post-matric courses, with family income ceiling.",
+    "benefits": [
+      "Scholarship, fees and allowances as prescribed for post-matric stage"
+    ],
+    "eligibility": [
+      {
+        "attribute": "disability",
+        "operator": "eq",
+        "value": true,
+        "required": true
+      },
+      {
+        "attribute": "occupation",
+        "operator": "eq",
+        "value": "student",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Eligible students with benchmark disability pursuing post-matric courses. Family income ceiling applies. Course, disability, income, and duplication conditions apply.",
+    "documents": [
+      "Disability certificate",
+      "Income certificate",
+      "Marksheets",
+      "Admission proof",
+      "Aadhaar / OTR",
+      "Bank details"
+    ],
+    "state": "India",
+    "category": [
+      "Scholarship/Disability"
+    ],
+    "applicationUrl": "https://scholarships.gov.in",
+    "officialSource": "https://scholarships.gov.in",
+    "sourceName": "National Scholarship Portal / DEPwD",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Disability must meet benchmark threshold; verified via official disability certificate.",
+      "Family income ceiling must be verified.",
+      "Course and institution eligibility conditions apply.",
+      "Cannot simultaneously draw duplicate scholarships."
+    ],
+    "helpline": "NSP support",
+    "department": "Department of Empowerment of Persons with Disabilities",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online"
+    ],
+    "targetGroup": "Post-matric students with disabilities",
+    "renewalFrequency": "Annual renewal"
+  },
+  {
+    "schemeId": "pm-ajay",
+    "name": "Pradhan Mantri Anusuchit Jaati Abhyuday Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री अनुसूचित जाति अभ्युदय योजना"
+    },
+    "description": "Comprehensive development scheme for Scheduled Caste communities covering livelihoods, skills, infrastructure, and socio-economic development through state-level implementation.",
+    "benefits": [
+      "Livelihood support",
+      "Skill development",
+      "Infrastructure and socio-economic development support",
+      "Benefits vary by component"
+    ],
+    "eligibility": [
+      {
+        "attribute": "category",
+        "operator": "eq",
+        "value": "SC",
+        "required": true
+      }
+    ],
+    "humanReadableEligibility": "Scheduled Caste beneficiaries and eligible communities under scheme components. Component-specific conditions apply. Not a single universal individual cash scheme. State/district agencies implement components.",
+    "documents": [
+      "SC certificate",
+      "Income/household/project documents as applicable"
+    ],
+    "state": "India",
+    "category": [
+      "Social Justice"
+    ],
+    "applicationUrl": "https://socialjustice.gov.in",
+    "officialSource": "https://socialjustice.gov.in",
+    "sourceName": "Ministry of Social Justice & Empowerment Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Component-specific eligibility must be verified with state/district agencies.",
+      "Not a universal individual cash grant; benefits are component/project-based.",
+      "SC status must be verified through official caste certificate."
+    ],
+    "helpline": "011-23389611",
+    "department": "Ministry of Social Justice & Empowerment",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Offline",
+      "Online"
+    ],
+    "targetGroup": "SC communities/beneficiaries",
+    "renewalFrequency": "Component/project-based"
+  },
+  {
+    "schemeId": "smile",
+    "name": "Support for Marginalized Individuals for Livelihood and Enterprise",
+    "localizedName": {
+      "hi": "स्माइल (SMILE) योजना"
+    },
+    "description": "Rehabilitation, skill training, livelihood, and enterprise support for marginalized persons including transgender persons and persons engaged in begging, under notified components.",
+    "benefits": [
+      "Skill training",
+      "Rehabilitation support",
+      "Livelihood and enterprise support"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "Marginalized persons under notified SMILE components, including transgender persons and persons engaged in begging. Component-specific; some skill components have defined age ranges. Identity/category verification required.",
+    "documents": [
+      "Aadhaar / ID",
+      "Relevant identity/certificate",
+      "Bank details",
+      "Education documents (as applicable)"
+    ],
+    "state": "India",
+    "category": [
+      "Social Justice/Livelihood"
+    ],
+    "applicationUrl": "https://socialjustice.gov.in",
+    "officialSource": "https://socialjustice.gov.in",
+    "sourceName": "Ministry of Social Justice & Empowerment Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Component-specific conditions apply; check current SMILE component guidelines.",
+      "Identity and category verification required through implementing agencies.",
+      "Eligibility depends on which SMILE component is being applied for."
+    ],
+    "helpline": "011-23389611",
+    "department": "Ministry of Social Justice & Empowerment",
+    "verificationStatus": "needs_verification",
+    "applicationMode": [
+      "Online",
+      "Implementing agencies"
+    ],
+    "targetGroup": "Marginalized individuals",
+    "renewalFrequency": "Component-based"
+  },
+  {
+    "schemeId": "pm-vbry",
+    "name": "Pradhan Mantri Viksit Bharat Rozgar Yojana",
+    "localizedName": {
+      "hi": "प्रधानमंत्री विकसित भारत रोजगार योजना"
+    },
+    "description": "Employment-linked incentive scheme providing financial incentives to first-time EPFO-registered employees and employers generating additional employment. Active 1 August 2025 to 31 July 2027. Formerly known as the Employment Linked Incentive (ELI) Scheme.",
+    "benefits": [
+      "First-time employee incentive: up to ₹15,000 in two instalments (Part A)",
+      "Employer incentive: up to ₹3,000/month per additional eligible employee in all sectors (Part B)",
+      "Extended incentive for manufacturing sector employers (up to 4 years)"
+    ],
+    "eligibility": [],
+    "humanReadableEligibility": "For employees: must be a first-time EPFO member (no prior EPFO membership before 1 August 2025), joining an eligible establishment between 1 August 2025 and 31 July 2027, with gross wages below ₹1 lakh/month. For employers: must be an EPFO-registered establishment creating net additional employment.",
+    "documents": [
+      "Employee UAN/KYC/bank details",
+      "Employer PAN/GSTN/bank/ECR/EPFO records"
+    ],
+    "state": "India",
+    "category": [
+      "Employment Incentive"
+    ],
+    "applicationUrl": "https://pmvbry.epfindia.gov.in",
+    "officialSource": "https://pmvbry.epfindia.gov.in",
+    "sourceName": "PM-VBRY EPFO Official Portal",
+    "lastVerified": "2026-09-17",
+    "active": true,
+    "unknownConditions": [
+      "Employee must be a first-time EPFO member (no prior membership before 1 August 2025).",
+      "Gross wages must be below ₹1 lakh/month.",
+      "Employment must be in an EPFO-registered establishment within scheme period.",
+      "Eligibility is system-verified through EPFO/UAN and employer ECR processes.",
+      "Employer must meet net additional employment criteria versus baseline."
+    ],
+    "helpline": "14470",
+    "department": "Ministry of Labour & Employment / EPFO",
+    "verificationStatus": "verified",
+    "applicationMode": [
+      "Online",
+      "EPFO/UAN system"
+    ],
+    "targetGroup": "First-time formal employees and eligible employers",
+    "renewalFrequency": "Employment-linked; scheme period 01-08-2025 to 31-07-2027"
+  }
+]
